@@ -15,3 +15,9 @@ print("Name:", fav_number , "(Type:", type(fav_number),"Memory Address:" ,id(fav
 print("your birthyear is approximately:" , 2025-age , "(based on your age of:", age,")")
 
 print("Thank you for using us, Goodbye!")
+
+
+print("Thank you for using us, Goodbye!")
+
+
+print("Thank you for using us, Goodbye!")

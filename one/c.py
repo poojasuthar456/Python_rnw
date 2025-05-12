@@ -16,8 +16,6 @@ print("your birthyear is approximately:" , 2025-age , "(based on your age of:", 
 
 print("Thank you for using us, Goodbye!")
 
-
 print("Thank you for using us, Goodbye!")
 
 
-print("Thank you for using us, Goodbye!")

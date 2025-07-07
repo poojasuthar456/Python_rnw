@@ -1,0 +1,201 @@
+Transaction ID,Date,User ID,Book Title,Genre,Borrowing Duration (Days)
+T0001,2025-03-29,U1004,Atomic Habits,Self-help,8
+T0002,2025-01-02,U1057,Sapiens,History,6
+T0003,2025-04-14,U1041,Ikigai,Fiction,13
+T0004,2025-01-26,U1001,Ikigai,Fiction,22
+T0005,2025-02-17,U1098,Ikigai,Fiction,22
+T0006,2025-05-30,U1089,The Alchemist,Fiction,12
+T0007,2025-04-18,U1073,The Psychology of Money,Finance,12
+T0008,2025-06-09,U1003,Sapiens,History,19
+T0009,2025-03-28,U1051,Wings of Fire,Biography,23
+T0010,2025-02-27,U1070,Sapiens,History,28
+T0011,2025-02-18,U1069,A Brief History of Time,Science,7
+T0012,2025-03-21,U1095,The Alchemist,Fiction,28
+T0013,2025-04-30,U1073,The Power of Now,Spirituality,13
+T0014,2025-06-18,U1053,A Brief History of Time,Science,13
+T0015,2025-02-05,U1029,Sapiens,History,22
+T0016,2025-02-01,U1087,Wings of Fire,Biography,10
+T0017,2025-02-13,U1005,Think Like a Monk,Self-help,7
+T0018,2025-06-12,U1013,A Brief History of Time,Science,13
+T0019,2025-01-22,U1045,The Silent Patient,Thriller,11
+T0020,2025-03-18,U1046,Wings of Fire,Biography,30
+T0021,2025-02-09,U1080,The Silent Patient,Thriller,16
+T0022,2025-02-11,U1056,Sapiens,History,14
+T0023,2025-03-13,U1063,Think Like a Monk,Self-help,6
+T0024,2025-01-30,U1034,A Brief History of Time,Science,30
+T0025,2025-05-18,U1045,The Power of Now,Spirituality,8
+T0026,2025-04-13,U1023,The Alchemist,Fiction,2
+T0027,2025-04-29,U1079,The Psychology of Money,Finance,24
+T0028,2025-03-11,U1037,The Alchemist,Fiction,1
+T0029,2025-06-29,U1060,The Power of Now,Spirituality,23
+T0030,2025-03-27,U1086,Atomic Habits,Self-help,25
+T0031,2025-05-21,U1010,A Brief History of Time,Science,9
+T0032,2025-05-09,U1036,Ikigai,Fiction,9
+T0033,2025-04-17,U1001,Ikigai,Fiction,7
+T0034,2025-02-03,U1039,Sapiens,History,26
+T0035,2025-03-10,U1020,The Power of Now,Spirituality,24
+T0036,2025-06-16,U1091,A Brief History of Time,Science,24
+T0037,2025-03-14,U1087,The Psychology of Money,Finance,11
+T0038,2025-02-23,U1098,The Psychology of Money,Finance,14
+T0039,2025-06-04,U1095,The Silent Patient,Thriller,21
+T0040,2025-06-05,U1017,Sapiens,History,6
+T0041,2025-02-08,U1072,Ikigai,Fiction,28
+T0042,2025-03-20,U1028,Wings of Fire,Biography,3
+T0043,2025-06-23,U1057,Sapiens,History,13
+T0044,2025-06-14,U1003,The Silent Patient,Thriller,17
+T0045,2025-06-15,U1076,The Psychology of Money,Finance,9
+T0046,2025-05-25,U1008,The Silent Patient,Thriller,5
+T0047,2025-02-02,U1085,The Alchemist,Fiction,13
+T0048,2025-01-25,U1006,The Alchemist,Fiction,19
+T0049,2025-06-29,U1018,The Power of Now,Spirituality,9
+T0050,2025-01-19,U1027,Ikigai,Fiction,24
+T0051,2025-05-31,U1021,The Alchemist,Fiction,30
+T0052,2025-03-17,U1036,The Psychology of Money,Finance,2
+T0053,2025-03-08,U1094,A Brief History of Time,Science,9
+T0054,2025-06-20,U1054,Wings of Fire,Biography,7
+T0055,2025-04-10,U1086,Sapiens,History,9
+T0056,2025-06-04,U1039,Sapiens,History,24
+T0057,2025-01-31,U1069,Think Like a Monk,Self-help,11
+T0058,2025-05-20,U1040,The Silent Patient,Thriller,25
+T0059,2025-02-06,U1014,A Brief History of Time,Science,3
+T0060,2025-01-16,U1035,Wings of Fire,Biography,28
+T0061,2025-02-28,U1020,Think Like a Monk,Self-help,14
+T0062,2025-03-09,U1083,Think Like a Monk,Self-help,30
+T0063,2025-03-02,U1071,Sapiens,History,9
+T0064,2025-05-21,U1069,Atomic Habits,Self-help,10
+T0065,2025-01-22,U1057,Sapiens,History,17
+T0066,2025-01-21,U1091,Think Like a Monk,Self-help,13
+T0067,2025-02-27,U1083,Wings of Fire,Biography,7
+T0068,2025-03-06,U1057,Sapiens,History,15
+T0069,2025-05-28,U1050,Atomic Habits,Self-help,14
+T0070,2025-02-03,U1012,The Silent Patient,Thriller,18
+T0071,2025-01-11,U1020,The Alchemist,Fiction,20
+T0072,2025-06-29,U1043,Atomic Habits,Self-help,13
+T0073,2025-03-02,U1081,Wings of Fire,Biography,16
+T0074,2025-04-23,U1035,A Brief History of Time,Science,16
+T0075,2025-04-27,U1055,Ikigai,Fiction,10
+T0076,2025-02-26,U1001,The Alchemist,Fiction,17
+T0077,2025-06-17,U1003,Think Like a Monk,Self-help,27
+T0078,2025-05-31,U1046,The Power of Now,Spirituality,25
+T0079,2025-02-20,U1039,Wings of Fire,Biography,27
+T0080,2025-06-05,U1046,Think Like a Monk,Self-help,23
+T0081,2025-06-22,U1062,Atomic Habits,Self-help,22
+T0082,2025-02-26,U1001,Ikigai,Fiction,19
+T0083,2025-05-23,U1069,Wings of Fire,Biography,28
+T0084,2025-03-10,U1092,Think Like a Monk,Self-help,5
+T0085,2025-02-08,U1010,Sapiens,History,25
+T0086,2025-01-09,U1044,The Power of Now,Spirituality,4
+T0087,2025-01-10,U1025,Ikigai,Fiction,4
+T0088,2025-01-25,U1041,The Psychology of Money,Finance,10
+T0089,2025-05-23,U1043,Ikigai,Fiction,23
+T0090,2025-01-18,U1019,The Psychology of Money,Finance,6
+T0091,2025-02-16,U1076,The Psychology of Money,Finance,13
+T0092,2025-03-06,U1059,The Silent Patient,Thriller,1
+T0093,2025-05-17,U1076,Wings of Fire,Biography,6
+T0094,2025-03-05,U1053,Sapiens,History,26
+T0095,2025-01-24,U1085,A Brief History of Time,Science,18
+T0096,2025-03-29,U1000,Think Like a Monk,Self-help,12
+T0097,2025-03-29,U1066,Sapiens,History,28
+T0098,2025-04-05,U1022,Think Like a Monk,Self-help,18
+T0099,2025-03-27,U1039,Wings of Fire,Biography,13
+T0100,2025-04-12,U1009,The Psychology of Money,Finance,19
+T0101,2025-01-10,U1088,Sapiens,History,26
+T0102,2025-01-20,U1095,Sapiens,History,7
+T0103,2025-04-25,U1066,Sapiens,History,22
+T0104,2025-05-23,U1065,Wings of Fire,Biography,4
+T0105,2025-01-09,U1009,The Alchemist,Fiction,22
+T0106,2025-05-28,U1063,The Power of Now,Spirituality,2
+T0107,2025-01-18,U1064,The Power of Now,Spirituality,19
+T0108,2025-04-05,U1075,The Silent Patient,Thriller,18
+T0109,2025-04-18,U1088,Think Like a Monk,Self-help,13
+T0110,2025-03-25,U1035,Think Like a Monk,Self-help,6
+T0111,2025-02-27,U1033,Think Like a Monk,Self-help,28
+T0112,2025-02-14,U1082,The Psychology of Money,Finance,3
+T0113,2025-01-11,U1005,Sapiens,History,5
+T0114,2025-03-16,U1042,Think Like a Monk,Self-help,8
+T0115,2025-04-18,U1025,The Power of Now,Spirituality,25
+T0116,2025-01-08,U1043,A Brief History of Time,Science,11
+T0117,2025-06-06,U1055,Sapiens,History,6
+T0118,2025-01-03,U1002,A Brief History of Time,Science,2
+T0119,2025-04-10,U1014,The Silent Patient,Thriller,27
+T0120,2025-04-26,U1005,Wings of Fire,Biography,19
+T0121,2025-05-01,U1076,Sapiens,History,4
+T0122,2025-01-30,U1002,The Power of Now,Spirituality,11
+T0123,2025-03-04,U1046,Sapiens,History,14
+T0124,2025-04-19,U1041,A Brief History of Time,Science,21
+T0125,2025-03-30,U1006,Wings of Fire,Biography,17
+T0126,2025-01-24,U1038,A Brief History of Time,Science,27
+T0127,2025-04-11,U1039,The Power of Now,Spirituality,7
+T0128,2025-03-18,U1017,Think Like a Monk,Self-help,10
+T0129,2025-02-18,U1089,Sapiens,History,25
+T0130,2025-05-27,U1004,The Power of Now,Spirituality,22
+T0131,2025-03-17,U1049,The Silent Patient,Thriller,13
+T0132,2025-05-14,U1088,Sapiens,History,5
+T0133,2025-06-18,U1030,Ikigai,Fiction,9
+T0134,2025-06-05,U1089,The Alchemist,Fiction,8
+T0135,2025-06-06,U1052,The Power of Now,Spirituality,18
+T0136,2025-02-12,U1029,The Power of Now,Spirituality,21
+T0137,2025-05-17,U1044,Think Like a Monk,Self-help,4
+T0138,2025-01-10,U1060,The Power of Now,Spirituality,16
+T0139,2025-01-16,U1012,Wings of Fire,Biography,7
+T0140,2025-02-22,U1072,The Psychology of Money,Finance,17
+T0141,2025-03-04,U1038,The Silent Patient,Thriller,12
+T0142,2025-05-28,U1099,The Silent Patient,Thriller,21
+T0143,2025-01-14,U1086,The Power of Now,Spirituality,11
+T0144,2025-01-06,U1041,A Brief History of Time,Science,18
+T0145,2025-01-02,U1098,The Alchemist,Fiction,18
+T0146,2025-05-07,U1056,Ikigai,Fiction,1
+T0147,2025-01-07,U1095,Wings of Fire,Biography,10
+T0148,2025-06-16,U1005,Wings of Fire,Biography,16
+T0149,2025-04-23,U1018,The Psychology of Money,Finance,9
+T0150,2025-02-11,U1066,The Silent Patient,Thriller,14
+T0151,2025-04-10,U1027,Think Like a Monk,Self-help,26
+T0152,2025-04-21,U1042,Wings of Fire,Biography,26
+T0153,2025-02-11,U1013,The Power of Now,Spirituality,14
+T0154,2025-01-04,U1056,The Psychology of Money,Finance,21
+T0155,2025-04-24,U1045,Atomic Habits,Self-help,14
+T0156,2025-01-12,U1066,A Brief History of Time,Science,15
+T0157,2025-04-09,U1075,The Alchemist,Fiction,25
+T0158,2025-02-04,U1008,Ikigai,Fiction,20
+T0159,2025-03-20,U1001,Ikigai,Fiction,20
+T0160,2025-06-29,U1085,Wings of Fire,Biography,2
+T0161,2025-06-19,U1058,Think Like a Monk,Self-help,6
+T0162,2025-06-04,U1046,The Psychology of Money,Finance,23
+T0163,2025-05-26,U1047,The Silent Patient,Thriller,5
+T0164,2025-05-19,U1068,The Power of Now,Spirituality,6
+T0165,2025-03-14,U1085,Sapiens,History,2
+T0166,2025-03-06,U1009,The Silent Patient,Thriller,8
+T0167,2025-06-01,U1088,A Brief History of Time,Science,7
+T0168,2025-03-22,U1093,The Alchemist,Fiction,24
+T0169,2025-02-13,U1046,Sapiens,History,14
+T0170,2025-06-17,U1037,Think Like a Monk,Self-help,21
+T0171,2025-04-16,U1052,A Brief History of Time,Science,1
+T0172,2025-03-01,U1052,The Power of Now,Spirituality,18
+T0173,2025-05-12,U1087,Sapiens,History,30
+T0174,2025-04-22,U1013,Sapiens,History,13
+T0175,2025-01-09,U1013,Ikigai,Fiction,20
+T0176,2025-04-29,U1086,Sapiens,History,16
+T0177,2025-02-06,U1070,The Power of Now,Spirituality,13
+T0178,2025-05-20,U1020,The Alchemist,Fiction,3
+T0179,2025-06-12,U1047,The Alchemist,Fiction,2
+T0180,2025-03-14,U1027,The Psychology of Money,Finance,17
+T0181,2025-04-14,U1049,The Power of Now,Spirituality,17
+T0182,2025-05-11,U1067,Sapiens,History,27
+T0183,2025-02-28,U1052,Atomic Habits,Self-help,4
+T0184,2025-06-15,U1085,The Silent Patient,Thriller,18
+T0185,2025-05-04,U1030,The Alchemist,Fiction,7
+T0186,2025-05-28,U1055,The Silent Patient,Thriller,28
+T0187,2025-06-13,U1074,The Alchemist,Fiction,28
+T0188,2025-04-03,U1058,The Silent Patient,Thriller,20
+T0189,2025-01-07,U1084,The Alchemist,Fiction,15
+T0190,2025-05-10,U1070,Ikigai,Fiction,24
+T0191,2025-02-14,U1067,Sapiens,History,28
+T0192,2025-04-28,U1066,Atomic Habits,Self-help,30
+T0193,2025-02-20,U1026,The Silent Patient,Thriller,2
+T0194,2025-04-07,U1025,Atomic Habits,Self-help,27
+T0195,2025-02-14,U1076,The Alchemist,Fiction,24
+T0196,2025-03-26,U1071,Atomic Habits,Self-help,2
+T0197,2025-04-30,U1033,The Psychology of Money,Finance,25
+T0198,2025-05-23,U1062,The Psychology of Money,Finance,7
+T0199,2025-02-21,U1006,Ikigai,Fiction,30
+T0200,2025-01-22,U1014,Ikigai,Fiction,10

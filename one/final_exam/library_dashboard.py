@@ -59,7 +59,7 @@ class LibraryDashboard:
         print(f"Average Borrowing Duration: {average_duration:.2f} days")
         print(f"Busiest Day: {busiest_day} ({busiest_day_count} transactions)")
 
-    def filter_transactions(self, genre=None, start_date=None, end_date=None, min_duration=None, max_duration=None):
+    def filter_transactions(self, genre=None, start_date=None, end_date=None, min=None, max=None):
         if self.data is None or self.data.empty:
             print("No data loaded. Please load a dataset first.")
             return
@@ -86,10 +86,10 @@ class LibraryDashboard:
                 print("Invalid end date format. Use YYYY-MM-DD.")
 
         # Filter by borrowing duration
-        if min_duration:
-            filtered_data = filtered_data[filtered_data['Borrowing Duration (Days)'] >= min_duration]
-        if max_duration:
-            filtered_data = filtered_data[filtered_data['Borrowing Duration (Days)'] <= max_duration]
+        if min:
+            filtered_data = filtered_data[filtered_data['Borrowing Duration (Days)'] >= min]
+        if max:
+            filtered_data = filtered_data[filtered_data['Borrowing Duration (Days)'] <= max]
 
         # Show results
         if filtered_data.empty:
@@ -232,32 +232,36 @@ def main():
 
         if choice == "1":
             dashboard.load_data()
+
         elif choice == "2":
             dashboard.calculate_statistics()
+
         elif choice == "3":
             # Ask user for filtering options
             genre = input("Filter by genre (or leave blank): ").strip() or None
             start_date = input("Start date (YYYY-MM-DD) or leave blank: ").strip() or None
             end_date = input("End date (YYYY-MM-DD) or leave blank: ").strip() or None
 
-            min_duration_input = input("Minimum borrowing duration (or leave blank): ").strip()
-            max_duration_input = input("Maximum borrowing duration (or leave blank): ").strip()
+            min_input = input("Minimum borrowing duration (or leave blank): ").strip()
+            max_input = input("Maximum borrowing duration (or leave blank): ").strip()
 
-            min_duration = int(min_duration_input) if min_duration_input else None
-            max_duration = int(max_duration_input) if max_duration_input else None
+            min = int(min) if min_input else None
+            max = int(max_input) if max_input else None
 
             dashboard.filter_transactions(
                 genre=genre,
                 start_date=start_date,
                 end_date=end_date,
-                min_duration=min_duration,
-                max_duration=max_duration
+                min=min,
+                max=max
             )
-
+            
         elif choice == "4":
             dashboard.generate_report()
+
         elif choice == "5":
             dashboard.show_visual_menu()
+
         elif choice == "6":
             print("Exiting dashboard. Goodbye!")
             break

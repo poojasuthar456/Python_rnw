@@ -25,14 +25,14 @@ class SalesDataAnalyzer:
 #In the function below we'll explore the data and see what the csv_file holds inside.
     def explore_data(self):
         while True:
-            ch = input("""===========Explore Data===========\n
+            print("""===========Explore Data===========\n
         1. First 5 rows\n
         2. Last 5 rows\n
         3. Column names\n
         4. Data types\n
         5. Basic info\n
-        6. Back to main menu\n
-        Enter your choice:  """)
+        6. Back to main menu\n """)
+            ch = input("Enter your choice:  ")
             
             if ch == '1':
                 print(self.data.head())
@@ -68,7 +68,7 @@ class SalesDataAnalyzer:
 #the function below helps the user to clean or handle missing value. This method helps clean the dataset efficiently and flexibly before performing:Statstical analysis and Visualization
     def handle_missing_data(self):
         while True:
-            choice = input("""===========Handle Missing Data===========\n
+            print("""===========Handle Missing Data===========\n
         1. Check missing\n
         2. Drop rows/columns\n
         3. Fill with specific value\n
@@ -76,8 +76,8 @@ class SalesDataAnalyzer:
         5. Forward fill\n
         6. Backward fill\n
         7. Interpolate\n
-        8. Back to menu\n
-        Enter your choice: """)
+        8. Back to menu\n""")
+            choice = input("Enter your choice: ")
             
             if choice == '1':
                 print(self.data.isnull().sum())
@@ -222,13 +222,13 @@ class SalesDataAnalyzer:
         cols = list(self.data.columns)
         print("Available columns:", cols)
 
-        choice = input("""==========Visualization Options:==========\n
+        print("""==========Visualization Options:==========\n
         1. Bar Plot\n
         2. Line Plot\n
         3. Scatter Plot\n
         4. Pie Chart\n
-        5. Histogram\n
-        Enter your choice: """)
+        5. Histogram\n""")
+        choice = input("Enter your choice: ")
         
         try:
             plt.figure(figsize=(10, 6))
@@ -301,7 +301,7 @@ class SalesDataAnalyzer:
 def main():
     analyzer = SalesDataAnalyzer()
     while True:
-        choice = input("""============Main Menu:============\n
+        print("""============Main Menu:============\n
         1. Load Dataset\n
         2. Explore Data\n
         3. Convert Data Types\n
@@ -310,8 +310,8 @@ def main():
         6. Show Statistics\n
         7. Visualize Data\n
         8. Save Visualization\n
-        9. Exit\n
-        Enter your choice: """)
+        9. Exit\n""")
+        choice = input("Enter your choice: ")
         
         if choice == '1':
             analyzer.load_data()

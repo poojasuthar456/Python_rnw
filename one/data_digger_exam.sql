@@ -3,7 +3,12 @@ use data_digger;
 
 
 #first table
-create table customers_table (CustomerID int primary key, Name varchar(50), Email Varchar(100), Address Varchar(100));
+create table customers_table (
+	CustomerID int primary key, 
+	Name varchar(50), 
+	Email Varchar(100), 
+	Address Varchar(100)
+);
 insert into customers_table values(1, 'Pooja Suthar', 'poojasuthar12@gmail.com', 'B-12, abc, punagam, surat'),
 (2, 'Payal Prajapat', 'payalpraja90@gmail.com', 'E-55, xyz, punagam, surat'),
 (3, 'Koshal Sisodiya', 'koshalsiso17@gmail.com', 'B-901, byz, godadara, surat'),

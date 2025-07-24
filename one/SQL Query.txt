@@ -1,0 +1,795 @@
+1 - CREATE DATABASE testDB;
+
+2 - DROP DATABASE testDB;
+
+3 - CREATE DATABASE IF NOT EXISTS testDB;
+
+4 - DROP DATABASE  IF NOT EXISTS testDB;
+
+
+5 - Table creates
+
+CREATE TABLE Employee 
+(
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Department VARCHAR(50),
+    Email VARCHAR(255) NOT NULL
+);
+
+
+
+
+CREATE TABLE Customer( 
+    CustomerID INT PRIMARY KEY,
+    CustomerName VARCHAR(50),
+    LastName VARCHAR(50),
+    Country VARCHAR(50),
+    Age INT CHECK (Age >= 0 AND Age <= 99),
+    Phone VARCHAR(10) -- Changed to VARCHAR(10) to store phone numbers as text
+);
+
+-- Inserting 10 rows of data into the Customer table
+
+INSERT INTO Customer (CustomerID, CustomerName, LastName, Country, Age, Phone)
+VALUES
+(1, 'Shubham', 'Thakur', 'India', 23, '9876543210'),
+(2, 'Aman', 'Chopra', 'Australia', 21, '9876543211'),
+(3, 'Naveen', 'Tulasi', 'Sri Lanka', 24, '9876543212'),
+(4, 'Aditya', 'Arpan', 'Austria', 21, '9876543213'),
+(5, 'Nishant', 'Jain', 'Spain', 22, '9876543214'),
+(6, 'Rahul', 'Verma', 'USA', 28, '9876543215'),
+(7, 'Kiran', 'Patel', 'India', 30, '9876543216'),
+(8, 'Sophia', 'Martinez', 'Mexico', 25, '9876543217'),
+(9, 'Alicia', 'Garcia', 'Brazil', 27, '9876543218'),
+(10, 'Michael', 'Smith', 'Canada', 26, '9876543219');
+
+
+6 - TRUNCATE TABLE
+
+TRUNCATE TABLE table_name;
+
+
+7 - DROP TABLE
+
+DROP TABLE table_name;
+
+8 - 
+
+CREATE TABLE Employee 
+(
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Department VARCHAR(50),
+    Email VARCHAR(255) NOT NULL,
+    Age INT NOT NULL,
+    REG_DATE DATE DEFAULT current_timestamp(),
+   
+   CONSTRAINT Employee_Email_unique UNIQUE (FirstName,Email),
+   CONSTRAINT CHK_Person CHECK (Age>=18)
+
+);
+
+select *
+from information_schema.table_constraints
+where table_name='Employee';
+
+
+-- Creating a table for "authors"
+
+CREATE TABLE authors 
+(
+    author_id INT AUTO_INCREMENT PRIMARY KEY,
+    author_name VARCHAR(100)
+);
+
+-- Creating a table for "books" with a foreign key constraint referencing the "authors" table
+
+CREATE TABLE books 
+(
+    book_id INT AUTO_INCREMENT PRIMARY KEY,
+    book_title VARCHAR(100),
+    author_id INT,
+    FOREIGN KEY (author_id) REFERENCES authors(author_id),
+    ON UPDATE CASCADE,
+    ON DELETE CASCADE 
+);
+
+
+ALTER TABLE Customers
+ADD Email varchar(255) ;
+
+
+ALTER TABLE Customers
+DROP COLUMN Email;
+
+To change the data type of a column in a table, use the following syntax:
+
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype;
+
+ALTER TABLE Persons
+ADD DateOfBirth date;
+
+ALTER TABLE balance   
+CHANGE COLUMN account_num account_no VARCHAR(25);  
+
+ALTER TABLE CUSTOMERS DROP CONSTRAINT CONSTRAINT_NAME
+
+SELECT *
+FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS
+WHERE TABLE_NAME='employee';
+
+
+
+Table Data from select query
+
+1 - SELECT * FROM smartphones_cleaned_v6  and SELECT * FROM smartphones_cleaned_v6 WHERE 1
+
+2 - SELECT model , price FROM smartphones_cleaned_v6; - only 2 col 
+
+3 - SELECT battery_capacity AS 'mah', price FROM smartphones_cleaned_v6;
+
+4 - SELECT model , resolution_width * resolution_width FROM smartphones_cleaned_v6;
+
+5 - SELECT model , SQRT(resolution_width * resolution_width + resolution_height * resolution_height)/ screen_size AS PPI FROM smartphones_cleaned_v6;
+
+
+6 - SELECT model , SQRT(resolution_width * resolution_width + resolution_height * resolution_height)/ screen_size  AS PPI FROM smartphones_cleaned_v6 ;
+
+7 - SELECT battery_capacity AS 'mah', 'Smart Phone' As 'type' FROM smartphones_cleaned_v6;
+
+8 - SELECT DISTINCT(brand_name) FROM smartphones_cleaned_v6;
+
+9 - SELECT DISTINCT brand_name ,os FROM smartphones_cleaned_v6;
+
+10 - SELECT * FROM smartphones_cleaned_v6 WHERE brand_name = 'samsung';
+
+11 - SELECT  model FROM smartphones_cleaned_v6 WHERE price > 50000;
+
+12 - SELECT  * FROM smartphones_cleaned_v6 WHERE price > 50000 OR model = 'samsung';
+
+13 - SELECT  * FROM smartphones_cleaned_v6 WHERE price  BETWEEN 10000 and 50000;
+
+
+
+
+14 - SELECT Customers.customer_id, Customers.first_name, Orders.amount, Orders.order_id
+FROM Customers
+JOIN Orders
+ON Customers.customer_id = Orders.customer_id
+WHERE Orders.order_id <=4
+ORDER BY Orders.order_id ASC
+LIMIT 2
+
+SELECT * FROM smartphones_cleaned_v6 WHERE brand_name = 'realme' GROUP By price ORDER BY price ASC;
+
+15 - SELECT  DISTINCT (brand_name) FROM smartphones_cleaned_v6 WHERE price > 50000;
+
+16 - SELECT  * FROM smartphones_cleaned_v6 WHERE processor_brand IN ('snapdragon' ,'exynos');
+
+17 - UPDATE Customers
+SET PostalCode = 00000
+WHERE Country = 'Mexico';
+
+18 - UPDATE smartphones_cleaned_v6 SET processor_brand = 'apple_1' WHERE  processor_brand = 'apple'  
+
+19 - UPDATE smartphones_cleaned_v6 SET email = '' , password = '' WHERE  name = 'apple'
+
+20 -  Delete Query - SELECT * FROM smartphones_cleaned_v6 WHERE price > 200000;
+
+                     DELETE FROM smartphones_cleaned_v6 WHERE price > 200000
+
+
+21 - delet - DELETE FROM smartphones_cleaned_v6 WHERE primary_camera_rear > 150 and brand_name = 'samsung';
+
+22 - SELECT MAX(price) FROM smartphones_cleaned_v6;
+
+
+
+23 - Joins 
+
+create table student(s_id int primary key, 
+                      s_name varchar(20));
+
+insert into student values(1, 'Jack');
+insert into student values(2, 'Rithvik');
+insert into student values(3, 'Jaspreet');
+insert into student values(4, 'Praveen');
+insert into student values(5, 'Bisa');
+insert into student values(6, 'Suraj');
+
+
+---------------------------------------------
+
+create table marks(school_id int primary key, s_id int, 
+                       score int, status varchar(20));
+
+insert into marks values(1004, 1, 23, 'fail');
+insert into marks values(1008, 6, 95, 'pass');
+insert into marks values(1012, 2, 97, 'pass');
+insert into marks values(1016, 7, 67, 'pass'); 
+insert into marks values(1020, 3, 100, 'pass');
+insert into marks values(1025, 8, 73, 'pass');
+insert into marks values(1030, 4, 88, 'pass');
+insert into marks values(1035, 9,  13, 'fail');
+insert into marks values(1040, 5,  16, 'fail');
+insert into marks values(1050, 10, 53, 'pass');
+
+
+
+
+--------------------------------------------------------
+
+create table details(address_city varchar(20), email_ID varchar(20), 
+                      school_id int, accomplishments varchar(50));
+
+insert into details values('Banglore',  'jsingh@geeks.com', 
+                                1020, 'ACM ICPC selected');
+insert into details values('Hyderabad', 'praveen@geeks.com', 
+                                1030, 'Geek of the month');
+insert into details values('Delhi',     'rithvik@geeks.com', 
+                                    1012, 'IOI finalist');
+insert into details values('Chennai',   'om@geeks.com', 
+                                 1111, 'Geek of the year');
+insert into details values('Banglore', ' suraj@geeks.com',
+                                 1008, 'IMO finalist');
+insert into details values('Mumbai',    'sasukeh@geeks.com',
+                                  2211, 'Made a robot');
+insert into details values('Ahmedabad', 'itachi@geeks.com',
+                               1172, 'Code Jam finalist');
+insert into details values('Jaipur',    'kumar@geeks.com',
+                                   1972, 'KVPY finalist');
+
+
+(INNER) JOIN: Returns records that have matching values in both tables
+
+LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+
+RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+
+FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+
+
+select s_name, score, status, address_city, email_id,accomplishments 
+from student s 
+inner join marks m on
+s.s_id = m.s_id inner join details d on 
+d.school_id = m.school_id;
+
+
+select * from student s inner join marks m on s.s_id = m.s_id and select * from marks m inner join student s on s.s_id = m.s_id 
+
+select * from student s RIGHT JOIN marks m on s.s_id = m.s_id
+
+
+SELECT * FROM student 
+FULL JOIN marks  ON student.s_id = marks.s_id;
+
+
+SELECT * FROM student LEFT JOIN marks ON student.s_id = marks.s_id
+UNION
+SELECT * FROM student RIGHT JOIN marks ON student.s_id = marks.s_id
+
+
+-------------------------------------------------------------
+
+CREATE TABLE Employee (
+    EmployeeId INT PRIMARY KEY,
+    Name VARCHAR(255),
+    Gender VARCHAR(10),
+    Salary DECIMAL(10, 2),
+    Department VARCHAR(255),
+    Experience VARCHAR(255)
+);
+
+
+INSERT INTO Employee (EmployeeId, Name, Gender, Salary, Department, Experience)
+VALUES (5, 'Priya Sharma', 'Female', 45000, 'IT', '2 years');
+
+INSERT INTO Employee (EmployeeId, Name, Gender, Salary, Department, Experience)
+VALUES (6, 'Rahul Patel', 'Male', 65000, 'Sales', '5 years');
+
+INSERT INTO Employee (EmployeeId, Name, Gender, Salary, Department, Experience)
+VALUES (7, 'Nisha Gupta', 'Female', 55000, 'Marketing', '4 years');
+
+INSERT INTO Employee (EmployeeId, Name, Gender, Salary, Department, Experience)
+VALUES (8, 'Vikram Singh', 'Male', 75000, 'Finance', '7 years');
+
+INSERT INTO Employee (EmployeeId, Name, Gender, Salary, Department, Experience)
+VALUES (9, 'Aarti Desai', 'Female', 50000, 'IT', '3 years');
+
+
+SELECT Department, sum(Salary) as Salary
+FROM employee
+GROUP BY department;
+
+
+SELECT Department, sum(Salary) as Salary
+FROM employee
+GROUP BY department
+HAVING SUM(Salary) >= 50000;  
+
+SELECT Department, sum(Salary) as Salary
+FROM employee
+WHERE Salary = 75000
+GROUP BY department
+HAVING SUM(Salary) >= 50000;
+
+
+---------------------------------------------------------
+
+Date Time Manipulation 
+
+- SELECT CURDATE();
+
+- SELECT CURDATE() + 1;
+
+- SELECT CURDATE() + 5;
+
+-  CREATE TABLE Orders 
+(
+    OrderID INT PRIMARY KEY,
+    OrderDate DATE
+);
+
+-- SELECT * FROM Orders where OrderDate = CURDATE() ;
+
+- INSERT INTO Orders (OrderID, OrderDate)
+VALUES (1, '2024-05-15');
+
+- Selecting Data with Date Manipulation:
+
+ - SELECT OrderID, OrderDate, DATE_ADD(OrderDate, INTERVAL 7 DAY) AS NewOrderDate FROM Orders;
+
+- Updating Data with Date Manipulation:
+    
+ -  UPDATE Orders
+    SET OrderDate = DATE_ADD(OrderDate, INTERVAL 1 MONTH)
+    WHERE OrderID = 1;
+
+- Deleting Data with Date Condition:
+   
+  - DELETE FROM Orders
+    WHERE OrderDate = '2024-01-01';
+
+----------------------------------------------------
+
+-- Create a table
+
+
+Date functions in SQL:
+NOW()
+CURDATE()
+CURTIME()
+DATE()
+EXTRACT()
+DATE_ADD()
+DATE_SUB()
+DATEDIFF()
+DATE_FORMAT()
+
+
+
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    OrderDate DATE,
+    ShipDate DATE
+);
+
+-- Insert some sample data
+
+INSERT INTO Orders (OrderID, OrderDate, ShipDate)
+VALUES
+    (1, '2024-05-01', '2024-05-05'),
+    (2, '2024-05-03', '2024-05-08'),
+    (3, '2024-05-06', '2024-05-10'),
+    (4, '2024-05-08', '2024-05-12'),
+    (5, '2024-05-10', '2024-05-15');
+
+-- Query to calculate the difference between ShipDate and OrderDate
+
+SELECT OrderID, ShipDate, OrderDate, DATEDIFF(ShipDate, OrderDate) AS DaysToShip FROM Orders;
+
+SELECT OrderID, ShipDate, OrderDate, DAY(ShipDate) AS DaysToShip FROM Orders;
+
+
+-- Query to find orders shipped within 3 days of ordering
+
+SELECT OrderID, ShipDate, OrderDate FROM Orders WHERE DATEDIFF(ShipDate, OrderDate) <= 3;
+
+-- Query to find orders shipped after 5 days of ordering
+SELECT OrderID, ShipDate, OrderDate
+FROM Orders
+WHERE DATEDIFF(ShipDate, OrderDate) > 5;
+
+-- Query to add 2 days to the ShipDate for all orders
+UPDATE Orders
+SET ShipDate = DATE_ADD(ShipDate, INTERVAL 2 DAY);
+
+-- Query to subtract 1 week from the OrderDate for all orders
+UPDATE Orders
+SET OrderDate = DATE_SUB(OrderDate, INTERVAL 1 WEEK);
+
+-- Query to get the current date
+SELECT CURDATE();
+
+-- Query to get the current datetime
+SELECT NOW();
+
+SELECT EXTRACT (YEAR FROM "2021-10-24") AS SHOW_YEAR;  
+
+-------------------------------------------------
+
+String Transformation
+
+
+UPPER Case Transformation: - SELECT UPPER(full_name) FROM users;
+
+LOWER Case Transformation: - SELECT LOWER(email) FROM users;
+
+String Length Calculation: - SELECT full_name, LENGTH(full_name) AS name_length FROM users;
+
+String Sub  Extraction: - SELECT SUBSTRING(full_name, 1, 4) AS first_four_chars FROM users;
+
+
+String Replace: - SELECT REPLACE(full_name, 'John', 'Jane') AS new_full_name FROM users;
+
+
+String Reverse: - SELECT REVERSE(email) AS reversed_email FROM users;
+
+Trimming Leading and Trailing Whitespaces: - SELECT TRIM(BOTH ' ' FROM email) AS trimmed_email FROM users;
+
+
+Left Trimming Whitespaces: - SELECT LTRIM(full_name) AS left_trimmed_name FROM users;
+
+
+Right Trimming Whitespaces: - SELECT RTRIM(email) AS right_trimmed_email FROM users;
+
+
+Padding Left: - SELECT LPAD(user_id, 5, '0') AS padded_user_id FROM users;
+
+
+Padding Right: - SELECT RPAD(email, 30, '*') AS padded_email FROM users;
+
+
+Extracting Portion of String from Start: - SELECT LEFT(full_name, 4) AS first_four_chars FROM users;
+
+
+Extracting Portion of String from End: - SELECT RIGHT(email, 10) AS last_ten_chars FROM users;
+
+
+String to Date Conversion: - SELECT STR_TO_DATE('2024-05-15', '%Y-%m-%d') AS converted_date;
+
+
+Concatenating Strings: - SELECT CONCAT(full_name, ' (', email, ')') AS name_email FROM users;
+
+
+String Splitting: - SELECT SUBSTRING_INDEX(full_name, ' ', 1) AS first_name FROM users;
+
+
+Extracting Numeric Part from String: - SELECT SUBSTRING(email, LOCATE('@', email) + 1) AS domain FROM users;
+
+String Comparison: - SELECT * FROM users WHERE full_name LIKE 'J%';
+
+String Length Comparison: - SELECT * FROM users WHERE LENGTH(email) > 15;
+
+
+
+--------------------------------------------------------------------
+
+Subquery 
+
+SELECT * FROM orders WHERE customer_id IN (SELECT customer_id FROM customers WHERE country = 'USA');
+
+SELECT * FROM employee WHERE EmployeeID IN (SELECT EmployeeID FROM employee WHERE Salary =  45000);
+
+SELECT EmployeeID, salary, (SELECT Min(salary) FROM Employee) AS max_salary FROM employee;
+
+SELECT * FROM employee WHERE EmployeeID IN (SELECT EmployeeID FROM employee WHERE EmployeeID = (SELECT EmployeeID FROM employee WHERE salary  = 45000 and Department = 'IT'));
+
+
+Basic Subquery: Retrieve data from one table based on the result of another query. - SELECT * FROM orders WHERE customer_id IN (SELECT customer_id FROM customers WHERE country = 'USA');
+
+Scalar Subquery: Use a subquery to return a single value.
+
+
+
+SELECT order_id, (SELECT MAX(order_date) FROM orders) AS max_order_date FROM orders;
+
+Correlated Subquery: Use values from the outer query in the inner subquery.
+
+
+
+SELECT product_name, (SELECT AVG(unit_price) FROM order_details WHERE product_id = products.product_id) AS avg_price FROM products;
+Exists Subquery: Check for the existence of rows in a subquery.
+
+
+
+SELECT customer_id, company_name FROM customers WHERE EXISTS (SELECT * FROM orders WHERE customers.customer_id = orders.customer_id);
+IN Subquery: Match values against a list returned by a subquery.
+
+
+
+SELECT product_name FROM products WHERE product_id IN (SELECT product_id FROM order_details WHERE quantity >= 10);
+ANY / ALL Subquery: Compare a single value with multiple values returned by a subquery.
+
+
+
+SELECT product_name FROM products WHERE unit_price > ANY (SELECT unit_price FROM products WHERE category_id = 1);
+Subquery in FROM Clause (Derived Table): Use a subquery in the FROM clause to create a derived table.
+
+
+
+SELECT order_id, total_amount FROM (SELECT order_id, SUM(unit_price * quantity) AS total_amount FROM order_details GROUP BY order_id) AS subquery;
+Subquery with Aggregate Functions: Use subqueries with aggregate functions.
+
+
+
+SELECT customer_id, (SELECT COUNT(*) FROM orders WHERE customers.customer_id = orders.customer_id) AS order_count FROM customers;
+Subquery with JOIN: Join tables with subqueries.
+
+
+
+SELECT orders.order_id, customers.company_name FROM orders INNER JOIN (SELECT customer_id, company_name FROM customers WHERE country = 'USA') AS customers ON orders.customer_id = customers.customer_id;
+
+
+- Nested Subqueries: Use subqueries within other subqueries.
+
+SELECT order_id, product_id, unit_price FROM order_details WHERE order_id IN (SELECT order_id FROM orders WHERE customer_id = (SELECT customer_id FROM customers WHERE company_name = 'Alfreds Futterkiste'));
+
+------------------------------------------------------------------------------------------------------------
+
+SQL CROSS JOIN returns all the records from the left and right tables. CROSS JOIN returns a combination of each row in the left table paired with each row in the right table.
+
+CROSS JOIN in SQL
+Cross Join in SQL produces a result set that contains the cartesian product of two or more tables. Cross join is also called a Cartesian Join. 
+
+When CROSS JOIN is used with a WHERE clause, it behaves like INNER JOIN, filtering the results based on specific conditions.
+
+CROSS JOIN is the best choice when we need to match each row of one table to every other row of another table. It is helpful in many applications where we need to obtain paired combinations of records.
+
+
+Important Points About CROSS JOIN
+
+CROSS JOIN performs the cross-product of records from two or more joined tables.
+It is used when we want every possible combination of rows to be present in a database’s tables. 
+SQL CROSS JOIN with condition of WHERE Clause operates as an INNER JOIN; when used without one, it produces the cartesian product of all the rows from all the tables provided in the SQL query.
+CROSS JOIN is different from other join types like INNER JOIN, LEFT JOIN, and RIGHT JOIN, as it does not require a matching condition between the tables.
+
+
+CREATE TABLE CUSTOMER(
+    ID INT,
+    NAME VARCHAR(20),
+    AGE INT,
+    PHONE INT);
+
+CREATE TABLE ORDERS(
+    ORDER_ID INT,
+    AMOUNT INT,
+    PLACED_ON DATE);
+    
+INSERT INTO CUSTOMER VALUES(1,'AMIT JAIN',21,98474);
+INSERT INTO CUSTOMER VALUES(2,'JATIN VERMA',47,63996);
+
+INSERT INTO ORDERS VALUES(101,999,'2023-04-19');
+INSERT INTO ORDERS VALUES(102,4999,'2023-04-20');   
+
+SELECT *
+FROM CUSTOMER
+CROSS JOIN ORDERS;
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Joins in SQL, a self join is a regular join that is used to join a table with itself. It basically allows us to combine the rows from the same table based on some specific conditions. It is very useful and easy to work with, and it allows us to retrieve data or information which involves comparing records within the same table.
+
+CREATE TABLE GFGemployees(employee_id 
+INT PRIMAR KEY, employee_name VARCHAR(50), manager_id INT);
+
+INSERT INTO GFGemployees (employee_id, employee_name, manager_id)
+VALUES  (1, 'Zaid', 3),  (2, 'Rahul', 3),  (3, 'Raman', 4),  
+(4, 'Kamran', NULL),  (5, 'Farhan', 4);
+
+
+SELECT e.employee_name AS employee,
+m.employee_name AS managerFROM 
+GFGemployees AS eJOIN GFGemployees 
+AS m ON e.manager_id = m.employee_id;
+
+SELECT e.employee_name AS employee,
+       m.employee_name AS manager
+FROM GFGemployees AS e
+JOIN GFGemployees AS m ON e.manager_id = m.employee_id;
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+Window Functions in SQL  -  
+
+
+CREATE TABLE marks 
+(
+ student_id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255),
+    branch VARCHAR(255),
+    marks INTEGER
+);
+
+INSERT INTO marks (name,branch,marks)VALUES 
+('Nitish','EEE',82),
+('Rishabh','EEE',91),
+('Anukant','EEE',69),
+('Rupesh','EEE',55),
+('Shubham','CSE',78),
+('Ved','CSE',43),
+('Deepak','CSE',98),
+('Arpan','CSE',95),
+('Vinay','ECE',95),
+('Ankit','ECE',88),
+('Anand','ECE',81),
+('Rohit','ECE',95),
+('Prashant','MECH',75),
+('Amit','MECH',69),
+('Sunny','MECH',39),
+('Gautam','MECH',51)
+
+
+SELECT AVG(marks) FROM marks;
+
+SELECT * , AVG(marks) OVER() FROM marks;
+
+SELECT * , AVG(marks) OVER(PARTITION BY branch) FROM marks;
+
+SELECT * , AVG(marks) OVER(), MIN(marks) OVER(), MAX(marks)  OVER() FROM marks ORDER BY student_id;
+
+SELECT * , 
+AVG(marks) OVER() As 'Overall_avg' , 
+MIN(marks) OVER(), 
+MAX(marks) OVER(),
+MIN(marks) OVER(PARTITION BY branch), 
+MAX(marks) OVER(PARTITION BY branch)
+FROM marks ORDER BY student_id;
+
+SELECT * , AVG(marks) OVER(PARTITION BY branch) FROM marks;
+
+SELECT * FROM (SELECT * , AVG(marks) OVER(PARTITION BY branch) AS 'branch_avg' FROM marks) t WHERE t.marks > t.branch_avg;
+
+SELECT * ,
+RANK() OVER(ORDER BY marks DESC)
+FROM marks;
+
+SELECT * ,
+RANK() OVER(PARTITION BY branch ORDER BY marks DESC),
+DENSE_RANK() OVER(PARTITION BY branch ORDER BY marks DESC)
+FROM marks;
+
+SELECT * ,
+ROW_NUMBER() OVER(PARTITION BY branch)
+FROM marks;
+
+SELECT * ,
+CONCAT(branch ,'-' , ROW_NUMBER() OVER(PARTITION BY branch))
+FROM marks;
+
+SELECT * ,
+ROW_NUMBER() OVER(PARTITION BY branch),
+NTILE(2) OVER(ORDER BY branch)
+FROM marks;
+
+SELECT 
+    student_id,
+    name,
+    branch,
+    marks,
+    PERCENT_RANK() OVER (ORDER BY marks DESC) AS percent_rank
+FROM 
+    marks;
+
+
+SELECT 
+    student_id,
+    name,
+    branch,
+    marks,
+    PERCENT_RANK() OVER (PARTITION BY branch ORDER BY marks DESC) AS percent_rank
+FROM 
+    marks;
+
+
+------------------------------------------------------------------------------------------------
+
+SELECT *, 
+       FIRST_VALUE(name) OVER (ORDER BY marks DESC) AS top_name
+FROM marks;
+
+SELECT *, 
+       FIRST_VALUE(marks) OVER (ORDER BY marks DESC) AS top_name
+FROM marks;
+
+
+SELECT *, 
+       LAST_VALUE(marks) OVER (ORDER BY marks DESC ROWS BETWEEN UNBOUNDED PRECEDING AND  UNBOUNDED FOLLOWING) AS top_name
+FROM marks
+
+SELECT *, 
+       NTH_VALUE(name , 1) OVER (PARTITION BY branch 
+                                ORDER BY marks DESC 
+                                 ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS top_name
+FROM marks
+
+
+
+SELECT * ,
+LAG(marks) OVER(ORDER BY student_id)
+FROM marks;
+
+
+--------------------------------------------------------------------------------------------------
+
+SELECT date , MONTH(date) FROM orders_1;
+SELECT date , MONTH(date) , MONTHNAME(date) FROM orders_1;
+
+
+SELECT MONTHNAME(date) ,user_id , SUM(amount) FROM orders_1
+GROUP BY MONTHNAME(date),user_id
+ORDER BY MONTH(date);
+
+
+SELECT MONTHNAME(date) ,user_id , SUM(amount),
+RANK() OVER(PARTITION BY MONTHNAME(date) ORDER BY SUM(amount) DESC)
+FROM orders_1
+GROUP BY MONTHNAME(date),user_id
+ORDER BY MONTH(date);
+
+
+SELECT * FROM (SELECT MONTHNAME(date) As 'month', user_id , SUM(amount) As 'total',
+               RANK() OVER(PARTITION BY MONTHNAME(date) ORDER BY SUM(amount) DESC) As 'month_rank'
+               FROM orders_1
+               GROUP BY MONTHNAME(date),user_id
+               ORDER BY MONTH(date)) t
+               WHERE t.month_rank < 3
+               ORDER BY month DESC , month_rank ASC;
+
+
+
+SELECT * FROM (SELECT *,
+FIRST_VALUE(name) OVER(PARTITION BY branch ORDER BY marks DESC) AS  'topper_name',
+FIRST_VALUE(marks) OVER(PARTITION BY branch ORDER BY marks DESC) AS  'topper_marks'
+FROM marks) t 
+WHERE t.name = t.topper_name AND t.marks = t.topper_marks;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

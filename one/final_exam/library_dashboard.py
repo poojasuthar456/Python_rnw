@@ -257,7 +257,6 @@ def main():
                 max_duration=max_duration
             )
 
-
         elif choice == "4":
             dashboard.generate_report()
 

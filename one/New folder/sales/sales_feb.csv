@@ -1,0 +1,501 @@
+SaleID,Date,CustomerID,Product,Category,Quantity,UnitPrice,Discount,TotalAmount,GST(18%),TotalWithGST,PaymentMethod,City,Country,Region,SalesRep
+202502-00001,2025-02-06,CUST-6934,Smartwatch,Wearables,1,423.78,0.10,381.40,68.65,450.05,Wallet,Chennai,India,APAC,Arun Kumar
+202502-00002,2025-02-22,CUST-8844,Bluetooth Speaker,Audio,2,248.59,0.00,497.18,89.49,586.67,Net Banking,Mumbai,India,APAC,Rohit Iyer
+202502-00003,2025-02-02,CUST-3095,Smartwatch,Wearables,5,163.79,0.00,818.95,147.41,966.36,Credit Card,Dubai,UAE,EMEA,Sofia Rossi
+202502-00004,2025-02-02,CUST-3725,"27"" Monitor",Electronics,2,1105.79,0.00,2211.58,398.08,2609.66,Wallet,London,UK,EMEA,James Wilson
+202502-00005,2025-02-07,CUST-8359,Smartwatch,Wearables,4,531.00,0.15,1805.40,324.97,2130.37,Cash on Delivery,Hyderabad,India,APAC,Rohit Iyer
+202502-00006,2025-02-20,CUST-9369,"27"" Monitor",Electronics,2,1489.75,0.15,2532.57,455.86,2988.43,Cash on Delivery,Dubai,UAE,EMEA,James Wilson
+202502-00007,2025-02-08,CUST-7196,Noise-Canceling Headphones,Audio,2,70.17,0.15,119.29,21.47,140.76,Debit Card,Chennai,India,APAC,Rohit Iyer
+202502-00008,2025-02-16,CUST-1639,Printer,Office,5,291.40,0.15,1238.45,222.92,1461.37,Wallet,Hyderabad,India,APAC,Asha Verma
+202502-00009,2025-02-25,CUST-8069,Smartphone 128GB,Electronics,4,835.20,0.15,2839.68,511.14,3350.82,Debit Card,Toronto,Canada,North America,Sarah Miller
+202502-00010,2025-02-12,CUST-2600,Noise-Canceling Headphones,Audio,2,124.17,0.00,248.34,44.70,293.04,Credit Card,London,UK,EMEA,Olivia Martin
+202502-00011,2025-02-09,CUST-4096,"Laptop 13""",Electronics,1,1219.28,0.00,1219.28,219.47,1438.75,Net Banking,Kolkata,India,APAC,Mei Lin
+202502-00012,2025-02-14,CUST-6935,"Laptop 15""",Electronics,2,938.23,0.10,1688.81,303.99,1992.80,Cash on Delivery,Sydney,Australia,APAC,Mei Lin
+202502-00013,2025-02-20,CUST-5514,Office Chair,Furniture,4,784.38,0.15,2666.89,480.04,3146.93,Debit Card,Berlin,Germany,EMEA,Olivia Martin
+202502-00014,2025-02-09,CUST-6024,Smartwatch,Wearables,3,482.58,0.05,1375.35,247.56,1622.91,Wallet,Chennai,India,APAC,Rohit Iyer
+202502-00015,2025-02-15,CUST-3650,"Laptop 15""",Electronics,2,1090.44,0.00,2180.88,392.56,2573.44,Cash on Delivery,Delhi,India,APAC,Rohit Iyer
+202502-00016,2025-02-13,CUST-1086,Webcam HD,Accessories,1,125.26,0.15,106.47,19.16,125.63,Credit Card,Bengaluru,India,APAC,Mei Lin
+202502-00017,2025-02-08,CUST-7075,"Laptop 15""",Electronics,5,219.85,0.15,934.36,168.18,1102.54,Cash on Delivery,Vancouver,Canada,North America,Michael Brown
+202502-00018,2025-02-23,CUST-1941,Webcam HD,Accessories,2,99.64,0.05,189.32,34.08,223.40,Wallet,Vancouver,Canada,North America,Michael Brown
+202502-00019,2025-02-07,CUST-1550,Webcam HD,Accessories,5,81.48,0.00,407.40,73.33,480.73,Cash on Delivery,Pune,India,APAC,Asha Verma
+202502-00020,2025-02-12,CUST-4919,Office Chair,Furniture,1,978.57,0.10,880.71,158.53,1039.24,Net Banking,Berlin,Germany,EMEA,Olivia Martin
+202502-00021,2025-02-13,CUST-4281,Smartphone 128GB,Electronics,1,1513.31,0.00,1513.31,272.40,1785.71,Cash on Delivery,London,UK,EMEA,Liam Schmidt
+202502-00022,2025-02-12,CUST-5530,Mechanical Keyboard,Accessories,5,144.83,0.15,615.53,110.80,726.33,Cash on Delivery,Mumbai,India,APAC,Mei Lin
+202502-00023,2025-02-06,CUST-7670,Smartphone 128GB,Electronics,1,1183.47,0.10,1065.12,191.72,1256.84,Credit Card,Vancouver,Canada,North America,Michael Brown
+202502-00024,2025-02-18,CUST-5098,Standing Desk,Furniture,4,970.13,0.05,3686.49,663.57,4350.06,UPI,Melbourne,Australia,APAC,Arun Kumar
+202502-00025,2025-02-19,CUST-1448,Bluetooth Speaker,Audio,1,125.39,0.05,119.12,21.44,140.56,Wallet,New York,USA,North America,Michael Brown
+202502-00026,2025-02-14,CUST-6785,Smartphone 128GB,Electronics,5,167.99,0.00,839.95,151.19,991.14,Debit Card,London,UK,EMEA,James Wilson
+202502-00027,2025-02-13,CUST-6603,"Laptop 15""",Electronics,5,1873.08,0.10,8428.86,1517.19,9946.05,Debit Card,Dubai,UAE,EMEA,Liam Schmidt
+202502-00028,2025-02-06,CUST-4115,Bluetooth Speaker,Audio,2,116.90,0.10,210.42,37.88,248.30,Debit Card,New York,USA,North America,Emily Davis
+202502-00029,2025-02-27,CUST-5091,External SSD 1TB,Storage,5,145.45,0.00,727.25,130.91,858.16,Credit Card,Bengaluru,India,APAC,Arun Kumar
+202502-00030,2025-02-20,CUST-1108,Webcam HD,Accessories,5,144.12,0.00,720.60,129.71,850.31,UPI,Manchester,UK,EMEA,Olivia Martin
+202502-00031,2025-02-19,CUST-5501,Bluetooth Speaker,Audio,2,394.23,0.00,788.46,141.92,930.38,UPI,Munich,Germany,EMEA,Sofia Rossi
+202502-00032,2025-02-25,CUST-3101,"Laptop 13""",Electronics,5,1628.65,0.00,8143.25,1465.78,9609.03,Cash on Delivery,Berlin,Germany,EMEA,Olivia Martin
+202502-00033,2025-02-28,CUST-3863,Bluetooth Speaker,Audio,1,288.35,0.00,288.35,51.90,340.25,Credit Card,Kolkata,India,APAC,Arun Kumar
+202502-00034,2025-02-19,CUST-2650,USB-C Hub,Accessories,3,95.79,0.10,258.63,46.55,305.18,Debit Card,San Francisco,USA,North America,Sarah Miller
+202502-00035,2025-02-20,CUST-6621,USB-C Hub,Accessories,2,79.83,0.10,143.69,25.86,169.55,UPI,Munich,Germany,EMEA,Liam Schmidt
+202502-00036,2025-02-15,CUST-3947,Smartwatch,Wearables,2,589.22,0.00,1178.44,212.12,1390.56,Credit Card,San Francisco,USA,North America,Emily Davis
+202502-00037,2025-02-18,CUST-8081,External SSD 1TB,Storage,4,107.06,0.00,428.24,77.08,505.32,Wallet,Hyderabad,India,APAC,Arun Kumar
+202502-00038,2025-02-26,CUST-1159,Wireless Mouse,Accessories,4,79.94,0.00,319.76,57.56,377.32,Wallet,Vancouver,Canada,North America,Michael Brown
+202502-00039,2025-02-26,CUST-8972,"27"" Monitor",Electronics,3,1189.96,0.15,3034.40,546.19,3580.59,Credit Card,Pune,India,APAC,Asha Verma
+202502-00040,2025-02-07,CUST-5166,Bluetooth Speaker,Audio,1,196.45,0.10,176.81,31.83,208.64,UPI,Singapore,Singapore,APAC,Mei Lin
+202502-00041,2025-02-12,CUST-1324,Noise-Canceling Headphones,Audio,1,159.90,0.00,159.90,28.78,188.68,Cash on Delivery,Kolkata,India,APAC,Rohit Iyer
+202502-00042,2025-02-25,CUST-5663,USB-C Hub,Accessories,3,104.25,0.15,265.84,47.85,313.69,Credit Card,Munich,Germany,EMEA,Liam Schmidt
+202502-00043,2025-02-15,CUST-3373,External SSD 1TB,Storage,2,213.74,0.00,427.48,76.95,504.43,Net Banking,Dubai,UAE,EMEA,Olivia Martin
+202502-00044,2025-02-28,CUST-2168,"Laptop 15""",Electronics,2,785.71,0.10,1414.28,254.57,1668.85,Wallet,San Francisco,USA,North America,Sarah Miller
+202502-00045,2025-02-09,CUST-8289,Webcam HD,Accessories,3,114.71,0.15,292.51,52.65,345.16,Net Banking,Pune,India,APAC,Rohit Iyer
+202502-00046,2025-02-28,CUST-1378,Wireless Mouse,Accessories,2,102.68,0.00,205.36,36.96,242.32,Wallet,Bengaluru,India,APAC,Rohit Iyer
+202502-00047,2025-02-06,CUST-7505,"Laptop 15""",Electronics,1,268.02,0.00,268.02,48.24,316.26,Cash on Delivery,Delhi,India,APAC,Asha Verma
+202502-00048,2025-02-25,CUST-7504,Smartphone 128GB,Electronics,1,342.27,0.00,342.27,61.61,403.88,Credit Card,Munich,Germany,EMEA,Liam Schmidt
+202502-00049,2025-02-08,CUST-5053,Standing Desk,Furniture,3,509.98,0.05,1453.44,261.62,1715.06,Credit Card,Delhi,India,APAC,Mei Lin
+202502-00050,2025-02-28,CUST-6328,External SSD 1TB,Storage,4,172.13,0.00,688.52,123.93,812.45,UPI,Singapore,Singapore,APAC,Arun Kumar
+202502-00051,2025-02-05,CUST-9835,Wireless Mouse,Accessories,5,93.66,0.00,468.30,84.29,552.59,Wallet,Dubai,UAE,EMEA,Olivia Martin
+202502-00052,2025-02-17,CUST-9745,"27"" Monitor",Electronics,3,1041.06,0.00,3123.18,562.17,3685.35,Net Banking,London,UK,EMEA,Liam Schmidt
+202502-00053,2025-02-14,CUST-5256,Wireless Mouse,Accessories,3,11.48,0.05,32.72,5.89,38.61,UPI,London,UK,EMEA,Olivia Martin
+202502-00054,2025-02-18,CUST-1136,Standing Desk,Furniture,4,953.32,0.00,3813.28,686.39,4499.67,Net Banking,London,UK,EMEA,Sofia Rossi
+202502-00055,2025-02-26,CUST-1118,Smartphone 128GB,Electronics,3,498.86,0.00,1496.58,269.38,1765.96,Net Banking,Munich,Germany,EMEA,Sofia Rossi
+202502-00056,2025-02-06,CUST-7385,External SSD 1TB,Storage,4,112.94,0.05,429.17,77.25,506.42,Cash on Delivery,San Francisco,USA,North America,Michael Brown
+202502-00057,2025-02-21,CUST-9715,Webcam HD,Accessories,3,67.81,0.00,203.43,36.62,240.05,Debit Card,Hyderabad,India,APAC,Mei Lin
+202502-00058,2025-02-04,CUST-8460,Smartwatch,Wearables,4,221.51,0.00,886.04,159.49,1045.53,Debit Card,Manchester,UK,EMEA,James Wilson
+202502-00059,2025-02-05,CUST-1813,Smartphone 128GB,Electronics,1,493.98,0.10,444.58,80.02,524.60,Debit Card,Melbourne,Australia,APAC,Asha Verma
+202502-00060,2025-02-08,CUST-2477,Wireless Mouse,Accessories,1,79.10,0.10,71.19,12.81,84.00,Net Banking,Berlin,Germany,EMEA,Olivia Martin
+202502-00061,2025-02-23,CUST-1519,USB-C Hub,Accessories,1,128.10,0.00,128.10,23.06,151.16,Credit Card,San Francisco,USA,North America,Sarah Miller
+202502-00062,2025-02-03,CUST-9899,Bluetooth Speaker,Audio,2,101.11,0.00,202.22,36.40,238.62,Net Banking,Mumbai,India,APAC,Asha Verma
+202502-00063,2025-02-25,CUST-5078,Noise-Canceling Headphones,Audio,4,121.45,0.00,485.80,87.44,573.24,Debit Card,Melbourne,Australia,APAC,Asha Verma
+202502-00064,2025-02-17,CUST-4415,Bluetooth Speaker,Audio,4,282.13,0.10,1015.67,182.82,1198.49,Debit Card,Delhi,India,APAC,Asha Verma
+202502-00065,2025-02-09,CUST-8884,Office Chair,Furniture,3,294.88,0.00,884.64,159.24,1043.88,Wallet,Kolkata,India,APAC,Asha Verma
+202502-00066,2025-02-08,CUST-8113,USB-C Hub,Accessories,1,33.43,0.00,33.43,6.02,39.45,Net Banking,New York,USA,North America,Chris Johnson
+202502-00067,2025-02-02,CUST-8786,Standing Desk,Furniture,5,256.39,0.00,1281.95,230.75,1512.70,Debit Card,Pune,India,APAC,Arun Kumar
+202502-00068,2025-02-03,CUST-6544,Printer,Office,1,105.11,0.00,105.11,18.92,124.03,Wallet,Singapore,Singapore,APAC,Asha Verma
+202502-00069,2025-02-05,CUST-8992,Mechanical Keyboard,Accessories,3,147.43,0.00,442.29,79.61,521.90,UPI,Melbourne,Australia,APAC,Rohit Iyer
+202502-00070,2025-02-01,CUST-7189,USB-C Hub,Accessories,2,45.10,0.15,76.67,13.80,90.47,Cash on Delivery,London,UK,EMEA,Olivia Martin
+202502-00071,2025-02-07,CUST-4057,Smartphone 128GB,Electronics,3,748.81,0.05,2134.11,384.14,2518.25,Credit Card,Vancouver,Canada,North America,Emily Davis
+202502-00072,2025-02-15,CUST-5844,External SSD 1TB,Storage,3,189.99,0.15,484.47,87.20,571.67,Wallet,Pune,India,APAC,Asha Verma
+202502-00073,2025-02-20,CUST-6965,Webcam HD,Accessories,5,43.43,0.00,217.15,39.09,256.24,Wallet,Singapore,Singapore,APAC,Arun Kumar
+202502-00074,2025-02-07,CUST-9586,Office Chair,Furniture,4,793.85,0.10,2857.86,514.41,3372.27,UPI,Sydney,Australia,APAC,Mei Lin
+202502-00075,2025-02-04,CUST-2577,Smartphone 128GB,Electronics,1,230.99,0.00,230.99,41.58,272.57,Debit Card,Delhi,India,APAC,Rohit Iyer
+202502-00076,2025-02-04,CUST-8952,Mechanical Keyboard,Accessories,1,14.45,0.00,14.45,2.60,17.05,Net Banking,Toronto,Canada,North America,Michael Brown
+202502-00077,2025-02-02,CUST-7002,Mechanical Keyboard,Accessories,5,110.50,0.05,524.88,94.48,619.36,Wallet,Toronto,Canada,North America,Chris Johnson
+202502-00078,2025-02-15,CUST-1994,USB-C Hub,Accessories,5,114.09,0.00,570.45,102.68,673.13,UPI,Delhi,India,APAC,Mei Lin
+202502-00079,2025-02-17,CUST-1666,Standing Desk,Furniture,1,854.32,0.05,811.60,146.09,957.69,Cash on Delivery,Chennai,India,APAC,Asha Verma
+202502-00080,2025-02-24,CUST-4784,Smartphone 128GB,Electronics,4,500.50,0.05,1901.90,342.34,2244.24,Cash on Delivery,Pune,India,APAC,Arun Kumar
+202502-00081,2025-02-24,CUST-2728,Webcam HD,Accessories,5,60.11,0.15,255.47,45.98,301.45,Credit Card,Pune,India,APAC,Rohit Iyer
+202502-00082,2025-02-18,CUST-7579,Smartphone 128GB,Electronics,3,1366.43,0.15,3484.40,627.19,4111.59,UPI,Manchester,UK,EMEA,Liam Schmidt
+202502-00083,2025-02-28,CUST-7090,Noise-Canceling Headphones,Audio,4,335.68,0.05,1275.58,229.60,1505.18,Cash on Delivery,Singapore,Singapore,APAC,Rohit Iyer
+202502-00084,2025-02-13,CUST-5162,USB-C Hub,Accessories,4,72.65,0.00,290.60,52.31,342.91,UPI,Mumbai,India,APAC,Rohit Iyer
+202502-00085,2025-02-10,CUST-1107,"27"" Monitor",Electronics,2,547.42,0.10,985.36,177.36,1162.72,Cash on Delivery,Vancouver,Canada,North America,Emily Davis
+202502-00086,2025-02-04,CUST-1618,Bluetooth Speaker,Audio,3,87.76,0.05,250.12,45.02,295.14,Debit Card,San Francisco,USA,North America,Michael Brown
+202502-00087,2025-02-03,CUST-7550,Smartwatch,Wearables,2,461.82,0.00,923.64,166.26,1089.90,Net Banking,Pune,India,APAC,Arun Kumar
+202502-00088,2025-02-27,CUST-2562,Smartwatch,Wearables,3,99.43,0.00,298.29,53.69,351.98,Net Banking,Bengaluru,India,APAC,Asha Verma
+202502-00089,2025-02-25,CUST-6478,USB-C Hub,Accessories,4,68.31,0.00,273.24,49.18,322.42,Debit Card,Mumbai,India,APAC,Arun Kumar
+202502-00090,2025-02-02,CUST-5993,Smartphone 128GB,Electronics,1,740.74,0.10,666.67,120.00,786.67,Cash on Delivery,New York,USA,North America,Emily Davis
+202502-00091,2025-02-02,CUST-7436,Bluetooth Speaker,Audio,5,242.84,0.15,1032.07,185.77,1217.84,UPI,Munich,Germany,EMEA,Sofia Rossi
+202502-00092,2025-02-05,CUST-6507,"Laptop 15""",Electronics,4,1207.17,0.15,4104.38,738.79,4843.17,UPI,Bengaluru,India,APAC,Arun Kumar
+202502-00093,2025-02-17,CUST-8118,Webcam HD,Accessories,2,116.68,0.05,221.69,39.90,261.59,Net Banking,Munich,Germany,EMEA,Sofia Rossi
+202502-00094,2025-02-18,CUST-9589,Mechanical Keyboard,Accessories,2,20.03,0.00,40.06,7.21,47.27,UPI,Dubai,UAE,EMEA,James Wilson
+202502-00095,2025-02-04,CUST-7776,Noise-Canceling Headphones,Audio,3,158.87,0.00,476.61,85.79,562.40,UPI,Pune,India,APAC,Mei Lin
+202502-00096,2025-02-20,CUST-8245,Smartwatch,Wearables,2,309.04,0.00,618.08,111.25,729.33,Debit Card,Kolkata,India,APAC,Mei Lin
+202502-00097,2025-02-05,CUST-2405,"Laptop 15""",Electronics,1,599.64,0.00,599.64,107.94,707.58,Debit Card,London,UK,EMEA,James Wilson
+202502-00098,2025-02-11,CUST-2823,"27"" Monitor",Electronics,4,1021.70,0.05,3882.46,698.84,4581.30,Debit Card,Singapore,Singapore,APAC,Mei Lin
+202502-00099,2025-02-18,CUST-8913,Smartwatch,Wearables,2,441.44,0.00,882.88,158.92,1041.80,Net Banking,Dubai,UAE,EMEA,James Wilson
+202502-00100,2025-02-09,CUST-3790,"Laptop 13""",Electronics,3,521.29,0.00,1563.87,281.50,1845.37,UPI,Delhi,India,APAC,Arun Kumar
+202502-00101,2025-02-21,CUST-1136,"Laptop 15""",Electronics,4,1371.69,0.00,5486.76,987.62,6474.38,Wallet,Berlin,Germany,EMEA,James Wilson
+202502-00102,2025-02-01,CUST-5792,External SSD 1TB,Storage,4,115.48,0.00,461.92,83.15,545.07,UPI,Toronto,Canada,North America,Chris Johnson
+202502-00103,2025-02-06,CUST-4258,Smartphone 128GB,Electronics,4,1187.27,0.00,4749.08,854.83,5603.91,Credit Card,New York,USA,North America,Michael Brown
+202502-00104,2025-02-11,CUST-9027,Noise-Canceling Headphones,Audio,2,36.80,0.00,73.60,13.25,86.85,UPI,London,UK,EMEA,Sofia Rossi
+202502-00105,2025-02-17,CUST-5519,Webcam HD,Accessories,1,97.61,0.00,97.61,17.57,115.18,Credit Card,Singapore,Singapore,APAC,Mei Lin
+202502-00106,2025-02-08,CUST-3485,USB-C Hub,Accessories,4,101.97,0.15,346.70,62.41,409.11,Cash on Delivery,New York,USA,North America,Sarah Miller
+202502-00107,2025-02-08,CUST-3502,Noise-Canceling Headphones,Audio,3,366.60,0.05,1044.81,188.07,1232.88,Debit Card,Hyderabad,India,APAC,Rohit Iyer
+202502-00108,2025-02-28,CUST-3262,"27"" Monitor",Electronics,5,1832.69,0.05,8705.28,1566.95,10272.23,Wallet,Dubai,UAE,EMEA,Sofia Rossi
+202502-00109,2025-02-11,CUST-2111,Smartphone 128GB,Electronics,5,1904.91,0.10,8572.10,1542.98,10115.08,Debit Card,Mumbai,India,APAC,Mei Lin
+202502-00110,2025-02-14,CUST-7737,"27"" Monitor",Electronics,4,1529.38,0.00,6117.52,1101.15,7218.67,Wallet,San Francisco,USA,North America,Emily Davis
+202502-00111,2025-02-25,CUST-4079,"Laptop 15""",Electronics,2,491.78,0.00,983.56,177.04,1160.60,Cash on Delivery,San Francisco,USA,North America,Emily Davis
+202502-00112,2025-02-20,CUST-4804,Mechanical Keyboard,Accessories,1,60.30,0.00,60.30,10.85,71.15,Net Banking,Hyderabad,India,APAC,Arun Kumar
+202502-00113,2025-02-23,CUST-7126,Wireless Mouse,Accessories,4,78.80,0.05,299.44,53.90,353.34,Debit Card,Delhi,India,APAC,Arun Kumar
+202502-00114,2025-02-25,CUST-1245,Printer,Office,3,479.08,0.05,1365.38,245.77,1611.15,Debit Card,Bengaluru,India,APAC,Rohit Iyer
+202502-00115,2025-02-15,CUST-9027,Standing Desk,Furniture,3,882.76,0.00,2648.28,476.69,3124.97,Net Banking,Munich,Germany,EMEA,James Wilson
+202502-00116,2025-02-20,CUST-7232,Standing Desk,Furniture,3,466.85,0.00,1400.55,252.10,1652.65,Cash on Delivery,Singapore,Singapore,APAC,Asha Verma
+202502-00117,2025-02-17,CUST-2791,Bluetooth Speaker,Audio,4,335.99,0.05,1276.76,229.82,1506.58,Cash on Delivery,Singapore,Singapore,APAC,Arun Kumar
+202502-00118,2025-02-24,CUST-1643,Smartphone 128GB,Electronics,4,1104.83,0.00,4419.32,795.48,5214.80,Credit Card,Kolkata,India,APAC,Mei Lin
+202502-00119,2025-02-15,CUST-7521,Printer,Office,3,404.94,0.05,1154.08,207.73,1361.81,Net Banking,London,UK,EMEA,James Wilson
+202502-00120,2025-02-23,CUST-9470,Printer,Office,2,274.70,0.00,549.40,98.89,648.29,Credit Card,Vancouver,Canada,North America,Chris Johnson
+202502-00121,2025-02-06,CUST-9952,Wireless Mouse,Accessories,4,67.90,0.05,258.02,46.44,304.46,Net Banking,Dubai,UAE,EMEA,Sofia Rossi
+202502-00122,2025-02-15,CUST-2477,"27"" Monitor",Electronics,3,1429.68,0.00,4289.04,772.03,5061.07,Debit Card,Chennai,India,APAC,Asha Verma
+202502-00123,2025-02-04,CUST-8362,Office Chair,Furniture,3,195.07,0.00,585.21,105.34,690.55,Wallet,Vancouver,Canada,North America,Emily Davis
+202502-00124,2025-02-13,CUST-7235,"Laptop 13""",Electronics,2,1837.67,0.05,3491.57,628.48,4120.05,Debit Card,Hyderabad,India,APAC,Rohit Iyer
+202502-00125,2025-02-25,CUST-1840,Noise-Canceling Headphones,Audio,3,144.52,0.00,433.56,78.04,511.60,Net Banking,London,UK,EMEA,Sofia Rossi
+202502-00126,2025-02-04,CUST-3155,Mechanical Keyboard,Accessories,1,97.16,0.15,82.59,14.87,97.46,Net Banking,Toronto,Canada,North America,Chris Johnson
+202502-00127,2025-02-20,CUST-9084,Mechanical Keyboard,Accessories,2,92.44,0.15,157.15,28.29,185.44,Net Banking,Bengaluru,India,APAC,Asha Verma
+202502-00128,2025-02-08,CUST-9967,"27"" Monitor",Electronics,5,1312.98,0.00,6564.90,1181.68,7746.58,Debit Card,Delhi,India,APAC,Rohit Iyer
+202502-00129,2025-02-05,CUST-1902,Office Chair,Furniture,3,152.31,0.00,456.93,82.25,539.18,Wallet,Dubai,UAE,EMEA,Liam Schmidt
+202502-00130,2025-02-11,CUST-2436,"Laptop 13""",Electronics,1,921.37,0.10,829.23,149.26,978.49,Cash on Delivery,Dubai,UAE,EMEA,Sofia Rossi
+202502-00131,2025-02-15,CUST-6901,Printer,Office,1,119.11,0.10,107.20,19.30,126.50,Net Banking,Bengaluru,India,APAC,Arun Kumar
+202502-00132,2025-02-27,CUST-2063,"27"" Monitor",Electronics,4,398.91,0.00,1595.64,287.22,1882.86,UPI,Manchester,UK,EMEA,Olivia Martin
+202502-00133,2025-02-17,CUST-4438,Standing Desk,Furniture,2,658.61,0.00,1317.22,237.10,1554.32,Net Banking,London,UK,EMEA,Olivia Martin
+202502-00134,2025-02-20,CUST-6185,"27"" Monitor",Electronics,5,1214.01,0.00,6070.05,1092.61,7162.66,Debit Card,Dubai,UAE,EMEA,Olivia Martin
+202502-00135,2025-02-17,CUST-9154,Bluetooth Speaker,Audio,2,356.96,0.10,642.53,115.66,758.19,Debit Card,Mumbai,India,APAC,Asha Verma
+202502-00136,2025-02-01,CUST-8616,Office Chair,Furniture,1,768.97,0.15,653.62,117.65,771.27,Net Banking,Delhi,India,APAC,Mei Lin
+202502-00137,2025-02-12,CUST-4478,"Laptop 13""",Electronics,2,1426.53,0.00,2853.06,513.55,3366.61,UPI,London,UK,EMEA,Liam Schmidt
+202502-00138,2025-02-25,CUST-1100,"Laptop 15""",Electronics,3,781.52,0.00,2344.56,422.02,2766.58,Cash on Delivery,Mumbai,India,APAC,Rohit Iyer
+202502-00139,2025-02-07,CUST-6415,External SSD 1TB,Storage,3,281.35,0.15,717.44,129.14,846.58,Credit Card,Hyderabad,India,APAC,Arun Kumar
+202502-00140,2025-02-05,CUST-8546,Printer,Office,5,456.29,0.15,1939.23,349.06,2288.29,Wallet,Delhi,India,APAC,Mei Lin
+202502-00141,2025-02-19,CUST-6169,Smartphone 128GB,Electronics,5,184.63,0.10,830.84,149.55,980.39,UPI,Bengaluru,India,APAC,Rohit Iyer
+202502-00142,2025-02-09,CUST-1510,USB-C Hub,Accessories,4,97.71,0.00,390.84,70.35,461.19,Cash on Delivery,Munich,Germany,EMEA,Sofia Rossi
+202502-00143,2025-02-20,CUST-2914,External SSD 1TB,Storage,3,229.26,0.00,687.78,123.80,811.58,UPI,Sydney,Australia,APAC,Asha Verma
+202502-00144,2025-02-16,CUST-4893,USB-C Hub,Accessories,4,126.12,0.10,454.03,81.73,535.76,Debit Card,Chennai,India,APAC,Mei Lin
+202502-00145,2025-02-26,CUST-1612,Webcam HD,Accessories,2,137.87,0.00,275.74,49.63,325.37,Net Banking,Vancouver,Canada,North America,Emily Davis
+202502-00146,2025-02-07,CUST-6572,Printer,Office,4,387.63,0.10,1395.47,251.18,1646.65,Debit Card,Chennai,India,APAC,Rohit Iyer
+202502-00147,2025-02-07,CUST-1598,Bluetooth Speaker,Audio,4,294.06,0.00,1176.24,211.72,1387.96,UPI,Delhi,India,APAC,Asha Verma
+202502-00148,2025-02-11,CUST-8649,Printer,Office,1,123.30,0.00,123.30,22.19,145.49,Wallet,London,UK,EMEA,James Wilson
+202502-00149,2025-02-19,CUST-6114,Office Chair,Furniture,2,402.37,0.10,724.27,130.37,854.64,Cash on Delivery,Manchester,UK,EMEA,Olivia Martin
+202502-00150,2025-02-22,CUST-2927,"27"" Monitor",Electronics,2,441.37,0.00,882.74,158.89,1041.63,Debit Card,Singapore,Singapore,APAC,Mei Lin
+202502-00151,2025-02-18,CUST-6218,"27"" Monitor",Electronics,2,1895.06,0.00,3790.12,682.22,4472.34,Cash on Delivery,New York,USA,North America,Emily Davis
+202502-00152,2025-02-03,CUST-6101,Smartwatch,Wearables,3,361.10,0.00,1083.30,194.99,1278.29,Net Banking,Delhi,India,APAC,Asha Verma
+202502-00153,2025-02-13,CUST-1881,"Laptop 15""",Electronics,4,875.05,0.00,3500.20,630.04,4130.24,Cash on Delivery,Melbourne,Australia,APAC,Mei Lin
+202502-00154,2025-02-10,CUST-6444,External SSD 1TB,Storage,2,231.10,0.00,462.20,83.20,545.40,Cash on Delivery,Bengaluru,India,APAC,Arun Kumar
+202502-00155,2025-02-19,CUST-3159,"Laptop 15""",Electronics,4,329.94,0.15,1121.80,201.92,1323.72,Net Banking,New York,USA,North America,Emily Davis
+202502-00156,2025-02-05,CUST-5227,Printer,Office,3,244.67,0.00,734.01,132.12,866.13,Wallet,Manchester,UK,EMEA,Liam Schmidt
+202502-00157,2025-02-15,CUST-8987,"Laptop 13""",Electronics,1,1029.37,0.15,874.96,157.49,1032.45,Debit Card,London,UK,EMEA,Liam Schmidt
+202502-00158,2025-02-20,CUST-3087,Smartphone 128GB,Electronics,1,900.52,0.00,900.52,162.09,1062.61,Credit Card,Manchester,UK,EMEA,James Wilson
+202502-00159,2025-02-26,CUST-5949,Smartphone 128GB,Electronics,4,891.51,0.05,3387.74,609.79,3997.53,Cash on Delivery,Pune,India,APAC,Arun Kumar
+202502-00160,2025-02-13,CUST-2082,USB-C Hub,Accessories,2,123.95,0.15,210.72,37.93,248.65,Cash on Delivery,Manchester,UK,EMEA,Sofia Rossi
+202502-00161,2025-02-06,CUST-2276,Standing Desk,Furniture,5,856.34,0.15,3639.44,655.10,4294.54,UPI,Singapore,Singapore,APAC,Asha Verma
+202502-00162,2025-02-27,CUST-8294,Wireless Mouse,Accessories,3,143.82,0.00,431.46,77.66,509.12,Wallet,Munich,Germany,EMEA,Liam Schmidt
+202502-00163,2025-02-16,CUST-2007,"Laptop 15""",Electronics,2,1661.51,0.00,3323.02,598.14,3921.16,Wallet,Mumbai,India,APAC,Rohit Iyer
+202502-00164,2025-02-22,CUST-3444,Bluetooth Speaker,Audio,5,137.86,0.00,689.30,124.07,813.37,Net Banking,Kolkata,India,APAC,Rohit Iyer
+202502-00165,2025-02-22,CUST-6187,"27"" Monitor",Electronics,5,1619.54,0.00,8097.70,1457.59,9555.29,Net Banking,Berlin,Germany,EMEA,James Wilson
+202502-00166,2025-02-19,CUST-1133,Smartwatch,Wearables,5,290.18,0.10,1305.81,235.05,1540.86,Credit Card,Berlin,Germany,EMEA,James Wilson
+202502-00167,2025-02-01,CUST-6885,"Laptop 15""",Electronics,3,1751.51,0.15,4466.35,803.94,5270.29,Wallet,Manchester,UK,EMEA,Olivia Martin
+202502-00168,2025-02-13,CUST-7251,Noise-Canceling Headphones,Audio,5,108.15,0.05,513.71,92.47,606.18,Debit Card,Singapore,Singapore,APAC,Arun Kumar
+202502-00169,2025-02-27,CUST-6902,External SSD 1TB,Storage,4,97.02,0.00,388.08,69.85,457.93,Wallet,Hyderabad,India,APAC,Rohit Iyer
+202502-00170,2025-02-01,CUST-2175,Office Chair,Furniture,1,246.72,0.00,246.72,44.41,291.13,Wallet,Sydney,Australia,APAC,Rohit Iyer
+202502-00171,2025-02-03,CUST-3248,Office Chair,Furniture,4,876.93,0.00,3507.72,631.39,4139.11,Wallet,Sydney,Australia,APAC,Rohit Iyer
+202502-00172,2025-02-15,CUST-9346,Noise-Canceling Headphones,Audio,5,333.43,0.05,1583.79,285.08,1868.87,Debit Card,Sydney,Australia,APAC,Asha Verma
+202502-00173,2025-02-19,CUST-9161,External SSD 1TB,Storage,2,230.91,0.10,415.64,74.82,490.46,Credit Card,Delhi,India,APAC,Arun Kumar
+202502-00174,2025-02-23,CUST-7038,"Laptop 15""",Electronics,5,1040.84,0.00,5204.20,936.76,6140.96,Debit Card,Vancouver,Canada,North America,Michael Brown
+202502-00175,2025-02-15,CUST-9469,"Laptop 15""",Electronics,5,1796.34,0.15,7634.44,1374.20,9008.64,Wallet,Bengaluru,India,APAC,Mei Lin
+202502-00176,2025-02-20,CUST-1864,Printer,Office,3,304.71,0.15,777.01,139.86,916.87,Cash on Delivery,Toronto,Canada,North America,Michael Brown
+202502-00177,2025-02-14,CUST-6782,Webcam HD,Accessories,3,50.49,0.10,136.32,24.54,160.86,Wallet,Dubai,UAE,EMEA,Liam Schmidt
+202502-00178,2025-02-02,CUST-8752,Smartwatch,Wearables,2,377.89,0.00,755.78,136.04,891.82,UPI,Mumbai,India,APAC,Mei Lin
+202502-00179,2025-02-16,CUST-2351,Wireless Mouse,Accessories,5,20.76,0.00,103.80,18.68,122.48,UPI,Hyderabad,India,APAC,Mei Lin
+202502-00180,2025-02-09,CUST-5209,"Laptop 13""",Electronics,1,1267.07,0.00,1267.07,228.07,1495.14,Wallet,Hyderabad,India,APAC,Arun Kumar
+202502-00181,2025-02-12,CUST-3873,"27"" Monitor",Electronics,2,1047.10,0.00,2094.20,376.96,2471.16,Credit Card,Manchester,UK,EMEA,James Wilson
+202502-00182,2025-02-05,CUST-3525,External SSD 1TB,Storage,4,240.66,0.15,818.24,147.28,965.52,Debit Card,Melbourne,Australia,APAC,Rohit Iyer
+202502-00183,2025-02-07,CUST-6653,"Laptop 13""",Electronics,3,1547.65,0.05,4410.80,793.94,5204.74,Net Banking,Munich,Germany,EMEA,Olivia Martin
+202502-00184,2025-02-10,CUST-8803,Standing Desk,Furniture,5,325.62,0.00,1628.10,293.06,1921.16,Net Banking,Toronto,Canada,North America,Michael Brown
+202502-00185,2025-02-05,CUST-9690,External SSD 1TB,Storage,4,62.85,0.00,251.40,45.25,296.65,Net Banking,Munich,Germany,EMEA,Liam Schmidt
+202502-00186,2025-02-17,CUST-1672,"Laptop 15""",Electronics,5,1329.23,0.00,6646.15,1196.31,7842.46,Net Banking,San Francisco,USA,North America,Michael Brown
+202502-00187,2025-02-09,CUST-5375,Webcam HD,Accessories,1,45.75,0.15,38.89,7.00,45.89,Wallet,New York,USA,North America,Emily Davis
+202502-00188,2025-02-17,CUST-6528,Office Chair,Furniture,2,395.68,0.00,791.36,142.44,933.80,Credit Card,Mumbai,India,APAC,Arun Kumar
+202502-00189,2025-02-04,CUST-9605,"Laptop 15""",Electronics,4,800.31,0.00,3201.24,576.22,3777.46,UPI,Kolkata,India,APAC,Asha Verma
+202502-00190,2025-02-01,CUST-2506,"Laptop 13""",Electronics,5,1364.72,0.00,6823.60,1228.25,8051.85,Cash on Delivery,Chennai,India,APAC,Asha Verma
+202502-00191,2025-02-03,CUST-3128,Noise-Canceling Headphones,Audio,5,327.18,0.00,1635.90,294.46,1930.36,Wallet,Pune,India,APAC,Mei Lin
+202502-00192,2025-02-10,CUST-8650,Office Chair,Furniture,1,682.13,0.00,682.13,122.78,804.91,UPI,Sydney,Australia,APAC,Mei Lin
+202502-00193,2025-02-09,CUST-3653,Webcam HD,Accessories,1,48.82,0.15,41.50,7.47,48.97,UPI,Delhi,India,APAC,Mei Lin
+202502-00194,2025-02-27,CUST-5336,Wireless Mouse,Accessories,4,19.72,0.00,78.88,14.20,93.08,Debit Card,Munich,Germany,EMEA,Sofia Rossi
+202502-00195,2025-02-21,CUST-9061,"Laptop 15""",Electronics,2,1150.17,0.00,2300.34,414.06,2714.40,Net Banking,San Francisco,USA,North America,Chris Johnson
+202502-00196,2025-02-02,CUST-2194,"Laptop 15""",Electronics,5,1495.96,0.00,7479.80,1346.36,8826.16,Credit Card,Toronto,Canada,North America,Emily Davis
+202502-00197,2025-02-21,CUST-1014,Printer,Office,1,359.13,0.10,323.22,58.18,381.40,Net Banking,Dubai,UAE,EMEA,James Wilson
+202502-00198,2025-02-17,CUST-9039,Bluetooth Speaker,Audio,4,179.45,0.00,717.80,129.20,847.00,Credit Card,Singapore,Singapore,APAC,Rohit Iyer
+202502-00199,2025-02-01,CUST-7298,Standing Desk,Furniture,4,226.66,0.10,815.98,146.88,962.86,UPI,London,UK,EMEA,Olivia Martin
+202502-00200,2025-02-02,CUST-2485,USB-C Hub,Accessories,5,129.47,0.15,550.25,99.05,649.30,UPI,Kolkata,India,APAC,Rohit Iyer
+202502-00201,2025-02-18,CUST-1644,Noise-Canceling Headphones,Audio,2,140.58,0.00,281.16,50.61,331.77,Wallet,Berlin,Germany,EMEA,Olivia Martin
+202502-00202,2025-02-03,CUST-8175,Standing Desk,Furniture,2,243.15,0.05,461.99,83.16,545.15,Net Banking,Munich,Germany,EMEA,James Wilson
+202502-00203,2025-02-26,CUST-9856,Office Chair,Furniture,3,559.72,0.00,1679.16,302.25,1981.41,Net Banking,Mumbai,India,APAC,Asha Verma
+202502-00204,2025-02-11,CUST-1918,USB-C Hub,Accessories,1,66.77,0.15,56.75,10.21,66.96,Wallet,Singapore,Singapore,APAC,Rohit Iyer
+202502-00205,2025-02-24,CUST-4817,Printer,Office,1,95.49,0.00,95.49,17.19,112.68,Net Banking,Delhi,India,APAC,Rohit Iyer
+202502-00206,2025-02-23,CUST-3138,"Laptop 13""",Electronics,2,1320.42,0.00,2640.84,475.35,3116.19,Credit Card,Melbourne,Australia,APAC,Rohit Iyer
+202502-00207,2025-02-27,CUST-2047,External SSD 1TB,Storage,1,87.40,0.05,83.03,14.95,97.98,Credit Card,Kolkata,India,APAC,Arun Kumar
+202502-00208,2025-02-11,CUST-7586,USB-C Hub,Accessories,1,146.62,0.05,139.29,25.07,164.36,UPI,Kolkata,India,APAC,Asha Verma
+202502-00209,2025-02-19,CUST-3841,USB-C Hub,Accessories,1,26.90,0.15,22.86,4.11,26.97,Debit Card,Berlin,Germany,EMEA,Sofia Rossi
+202502-00210,2025-02-15,CUST-4991,Printer,Office,5,97.09,0.15,412.63,74.27,486.90,Debit Card,Mumbai,India,APAC,Arun Kumar
+202502-00211,2025-02-03,CUST-1104,"Laptop 13""",Electronics,2,1863.35,0.00,3726.70,670.81,4397.51,Cash on Delivery,London,UK,EMEA,Olivia Martin
+202502-00212,2025-02-23,CUST-8798,Standing Desk,Furniture,2,301.42,0.00,602.84,108.51,711.35,Cash on Delivery,Melbourne,Australia,APAC,Arun Kumar
+202502-00213,2025-02-08,CUST-3859,Smartwatch,Wearables,1,390.06,0.00,390.06,70.21,460.27,Cash on Delivery,Bengaluru,India,APAC,Mei Lin
+202502-00214,2025-02-12,CUST-7861,"Laptop 13""",Electronics,5,585.93,0.00,2929.65,527.34,3456.99,Cash on Delivery,Berlin,Germany,EMEA,Sofia Rossi
+202502-00215,2025-02-15,CUST-4409,"27"" Monitor",Electronics,1,508.38,0.00,508.38,91.51,599.89,Wallet,Toronto,Canada,North America,Sarah Miller
+202502-00216,2025-02-06,CUST-3617,Office Chair,Furniture,1,167.54,0.05,159.16,28.65,187.81,Net Banking,San Francisco,USA,North America,Michael Brown
+202502-00217,2025-02-20,CUST-8424,"Laptop 13""",Electronics,1,1519.77,0.00,1519.77,273.56,1793.33,Debit Card,Pune,India,APAC,Asha Verma
+202502-00218,2025-02-16,CUST-9436,"Laptop 15""",Electronics,1,1805.90,0.00,1805.90,325.06,2130.96,Cash on Delivery,Dubai,UAE,EMEA,Liam Schmidt
+202502-00219,2025-02-14,CUST-4256,Standing Desk,Furniture,3,322.46,0.05,919.01,165.42,1084.43,Credit Card,New York,USA,North America,Sarah Miller
+202502-00220,2025-02-28,CUST-4276,Noise-Canceling Headphones,Audio,2,57.21,0.00,114.42,20.60,135.02,Net Banking,Hyderabad,India,APAC,Rohit Iyer
+202502-00221,2025-02-20,CUST-8454,Wireless Mouse,Accessories,4,62.29,0.05,236.70,42.61,279.31,Wallet,Berlin,Germany,EMEA,Liam Schmidt
+202502-00222,2025-02-07,CUST-6503,Wireless Mouse,Accessories,1,106.91,0.05,101.56,18.28,119.84,Credit Card,Melbourne,Australia,APAC,Arun Kumar
+202502-00223,2025-02-14,CUST-3804,Webcam HD,Accessories,3,40.78,0.05,116.22,20.92,137.14,Wallet,Pune,India,APAC,Rohit Iyer
+202502-00224,2025-02-03,CUST-7745,External SSD 1TB,Storage,5,177.41,0.00,887.05,159.67,1046.72,Cash on Delivery,Toronto,Canada,North America,Sarah Miller
+202502-00225,2025-02-09,CUST-1237,Standing Desk,Furniture,4,767.84,0.10,2764.22,497.56,3261.78,Net Banking,Dubai,UAE,EMEA,Sofia Rossi
+202502-00226,2025-02-19,CUST-3440,Printer,Office,5,457.27,0.00,2286.35,411.54,2697.89,Credit Card,Toronto,Canada,North America,Chris Johnson
+202502-00227,2025-02-14,CUST-9701,Noise-Canceling Headphones,Audio,4,329.60,0.00,1318.40,237.31,1555.71,Credit Card,Melbourne,Australia,APAC,Arun Kumar
+202502-00228,2025-02-08,CUST-2361,Smartphone 128GB,Electronics,1,1432.35,0.05,1360.73,244.93,1605.66,Debit Card,Berlin,Germany,EMEA,Liam Schmidt
+202502-00229,2025-02-08,CUST-2486,"Laptop 13""",Electronics,4,1387.72,0.15,4718.25,849.28,5567.53,Cash on Delivery,Dubai,UAE,EMEA,James Wilson
+202502-00230,2025-02-15,CUST-8598,Webcam HD,Accessories,2,132.39,0.10,238.30,42.89,281.19,Wallet,Melbourne,Australia,APAC,Asha Verma
+202502-00231,2025-02-28,CUST-2158,Noise-Canceling Headphones,Audio,3,226.44,0.10,611.39,110.05,721.44,Wallet,Singapore,Singapore,APAC,Rohit Iyer
+202502-00232,2025-02-26,CUST-2326,Smartwatch,Wearables,3,462.60,0.10,1249.02,224.82,1473.84,Credit Card,Chennai,India,APAC,Arun Kumar
+202502-00233,2025-02-12,CUST-8624,Smartwatch,Wearables,1,270.10,0.00,270.10,48.62,318.72,Cash on Delivery,Kolkata,India,APAC,Rohit Iyer
+202502-00234,2025-02-11,CUST-4909,Smartphone 128GB,Electronics,1,1350.72,0.00,1350.72,243.13,1593.85,Cash on Delivery,Kolkata,India,APAC,Rohit Iyer
+202502-00235,2025-02-11,CUST-6778,Printer,Office,3,291.50,0.00,874.50,157.41,1031.91,Credit Card,Berlin,Germany,EMEA,Liam Schmidt
+202502-00236,2025-02-15,CUST-8966,Smartphone 128GB,Electronics,5,1684.69,0.10,7581.11,1364.60,8945.71,Net Banking,Berlin,Germany,EMEA,James Wilson
+202502-00237,2025-02-07,CUST-8501,"Laptop 15""",Electronics,1,872.76,0.00,872.76,157.10,1029.86,Credit Card,Pune,India,APAC,Mei Lin
+202502-00238,2025-02-04,CUST-3424,Bluetooth Speaker,Audio,2,353.75,0.00,707.50,127.35,834.85,UPI,Sydney,Australia,APAC,Rohit Iyer
+202502-00239,2025-02-16,CUST-6680,Noise-Canceling Headphones,Audio,4,302.95,0.05,1151.21,207.22,1358.43,Credit Card,Mumbai,India,APAC,Rohit Iyer
+202502-00240,2025-02-27,CUST-9513,Office Chair,Furniture,3,482.29,0.10,1302.18,234.39,1536.57,Net Banking,Dubai,UAE,EMEA,Olivia Martin
+202502-00241,2025-02-15,CUST-5982,Smartwatch,Wearables,2,547.11,0.10,984.80,177.26,1162.06,Debit Card,Toronto,Canada,North America,Michael Brown
+202502-00242,2025-02-10,CUST-1775,Wireless Mouse,Accessories,3,49.81,0.00,149.43,26.90,176.33,Cash on Delivery,Pune,India,APAC,Mei Lin
+202502-00243,2025-02-06,CUST-3873,External SSD 1TB,Storage,2,98.70,0.10,177.66,31.98,209.64,Cash on Delivery,Hyderabad,India,APAC,Arun Kumar
+202502-00244,2025-02-09,CUST-7056,Wireless Mouse,Accessories,2,88.75,0.10,159.75,28.75,188.50,UPI,Hyderabad,India,APAC,Mei Lin
+202502-00245,2025-02-15,CUST-9845,Wireless Mouse,Accessories,5,52.22,0.00,261.10,47.00,308.10,Net Banking,Toronto,Canada,North America,Emily Davis
+202502-00246,2025-02-15,CUST-6246,Wireless Mouse,Accessories,1,145.82,0.10,131.24,23.62,154.86,Wallet,London,UK,EMEA,Olivia Martin
+202502-00247,2025-02-10,CUST-3409,Webcam HD,Accessories,5,112.00,0.00,560.00,100.80,660.80,UPI,Chennai,India,APAC,Arun Kumar
+202502-00248,2025-02-02,CUST-3284,Office Chair,Furniture,5,222.85,0.05,1058.54,190.54,1249.08,Net Banking,Berlin,Germany,EMEA,James Wilson
+202502-00249,2025-02-11,CUST-1901,Smartwatch,Wearables,2,383.38,0.10,690.08,124.21,814.29,Debit Card,Mumbai,India,APAC,Asha Verma
+202502-00250,2025-02-18,CUST-8298,Office Chair,Furniture,1,978.74,0.15,831.93,149.75,981.68,UPI,Vancouver,Canada,North America,Chris Johnson
+202502-00251,2025-02-22,CUST-6915,Noise-Canceling Headphones,Audio,2,294.91,0.15,501.35,90.24,591.59,UPI,Mumbai,India,APAC,Mei Lin
+202502-00252,2025-02-12,CUST-6756,"27"" Monitor",Electronics,4,1767.46,0.15,6009.36,1081.68,7091.04,Wallet,Sydney,Australia,APAC,Arun Kumar
+202502-00253,2025-02-10,CUST-3683,Webcam HD,Accessories,4,112.00,0.00,448.00,80.64,528.64,Debit Card,Kolkata,India,APAC,Mei Lin
+202502-00254,2025-02-16,CUST-9606,USB-C Hub,Accessories,1,140.64,0.15,119.54,21.52,141.06,Credit Card,Mumbai,India,APAC,Arun Kumar
+202502-00255,2025-02-21,CUST-5478,Noise-Canceling Headphones,Audio,2,235.65,0.00,471.30,84.83,556.13,Debit Card,Kolkata,India,APAC,Rohit Iyer
+202502-00256,2025-02-27,CUST-7254,"27"" Monitor",Electronics,5,1057.58,0.00,5287.90,951.82,6239.72,UPI,Dubai,UAE,EMEA,Liam Schmidt
+202502-00257,2025-02-16,CUST-8593,Mechanical Keyboard,Accessories,1,120.77,0.10,108.69,19.56,128.25,Wallet,Toronto,Canada,North America,Chris Johnson
+202502-00258,2025-02-21,CUST-5713,Noise-Canceling Headphones,Audio,2,212.00,0.00,424.00,76.32,500.32,Debit Card,Mumbai,India,APAC,Asha Verma
+202502-00259,2025-02-25,CUST-5541,Bluetooth Speaker,Audio,1,251.59,0.15,213.85,38.49,252.34,Cash on Delivery,Sydney,Australia,APAC,Mei Lin
+202502-00260,2025-02-21,CUST-8799,Standing Desk,Furniture,1,448.42,0.00,448.42,80.72,529.14,Credit Card,San Francisco,USA,North America,Emily Davis
+202502-00261,2025-02-19,CUST-1958,Wireless Mouse,Accessories,3,74.55,0.00,223.65,40.26,263.91,UPI,Pune,India,APAC,Asha Verma
+202502-00262,2025-02-09,CUST-6917,Noise-Canceling Headphones,Audio,3,48.02,0.00,144.06,25.93,169.99,Cash on Delivery,Kolkata,India,APAC,Rohit Iyer
+202502-00263,2025-02-25,CUST-2548,Smartwatch,Wearables,2,362.73,0.00,725.46,130.58,856.04,Wallet,London,UK,EMEA,Liam Schmidt
+202502-00264,2025-02-22,CUST-6939,"Laptop 15""",Electronics,5,1223.09,0.00,6115.45,1100.78,7216.23,Credit Card,Hyderabad,India,APAC,Mei Lin
+202502-00265,2025-02-12,CUST-8944,Noise-Canceling Headphones,Audio,3,370.74,0.05,1056.61,190.19,1246.80,Debit Card,Vancouver,Canada,North America,Emily Davis
+202502-00266,2025-02-27,CUST-4087,Webcam HD,Accessories,5,95.88,0.00,479.40,86.29,565.69,Cash on Delivery,Singapore,Singapore,APAC,Asha Verma
+202502-00267,2025-02-14,CUST-8544,Printer,Office,1,128.96,0.00,128.96,23.21,152.17,Net Banking,Berlin,Germany,EMEA,Liam Schmidt
+202502-00268,2025-02-23,CUST-6940,Wireless Mouse,Accessories,4,134.56,0.10,484.42,87.20,571.62,Debit Card,London,UK,EMEA,James Wilson
+202502-00269,2025-02-24,CUST-2943,Mechanical Keyboard,Accessories,2,129.95,0.05,246.90,44.44,291.34,UPI,Hyderabad,India,APAC,Rohit Iyer
+202502-00270,2025-02-05,CUST-2287,Noise-Canceling Headphones,Audio,1,58.76,0.00,58.76,10.58,69.34,Net Banking,Delhi,India,APAC,Rohit Iyer
+202502-00271,2025-02-04,CUST-1537,Webcam HD,Accessories,5,93.04,0.10,418.68,75.36,494.04,Credit Card,Bengaluru,India,APAC,Mei Lin
+202502-00272,2025-02-22,CUST-1168,Webcam HD,Accessories,1,119.53,0.00,119.53,21.52,141.05,Debit Card,Dubai,UAE,EMEA,Sofia Rossi
+202502-00273,2025-02-06,CUST-6759,"Laptop 13""",Electronics,1,419.28,0.00,419.28,75.47,494.75,UPI,Dubai,UAE,EMEA,Liam Schmidt
+202502-00274,2025-02-12,CUST-3630,External SSD 1TB,Storage,5,247.39,0.00,1236.95,222.65,1459.60,Cash on Delivery,Dubai,UAE,EMEA,James Wilson
+202502-00275,2025-02-04,CUST-1229,Smartphone 128GB,Electronics,2,1474.25,0.00,2948.50,530.73,3479.23,Debit Card,Singapore,Singapore,APAC,Asha Verma
+202502-00276,2025-02-24,CUST-2616,Printer,Office,2,466.60,0.00,933.20,167.98,1101.18,Net Banking,Berlin,Germany,EMEA,Sofia Rossi
+202502-00277,2025-02-15,CUST-2758,Wireless Mouse,Accessories,3,147.38,0.05,420.03,75.61,495.64,Net Banking,Chennai,India,APAC,Mei Lin
+202502-00278,2025-02-04,CUST-8633,"Laptop 15""",Electronics,5,401.44,0.00,2007.20,361.30,2368.50,Wallet,London,UK,EMEA,James Wilson
+202502-00279,2025-02-03,CUST-6375,Bluetooth Speaker,Audio,1,172.37,0.10,155.13,27.92,183.05,Wallet,Melbourne,Australia,APAC,Rohit Iyer
+202502-00280,2025-02-18,CUST-7672,"27"" Monitor",Electronics,4,499.25,0.15,1697.45,305.54,2002.99,Wallet,Berlin,Germany,EMEA,Sofia Rossi
+202502-00281,2025-02-01,CUST-9055,Office Chair,Furniture,1,468.81,0.00,468.81,84.39,553.20,Credit Card,Hyderabad,India,APAC,Arun Kumar
+202502-00282,2025-02-13,CUST-2666,Standing Desk,Furniture,2,176.95,0.00,353.90,63.70,417.60,UPI,Kolkata,India,APAC,Arun Kumar
+202502-00283,2025-02-04,CUST-4815,External SSD 1TB,Storage,4,234.05,0.10,842.58,151.66,994.24,Wallet,Munich,Germany,EMEA,Liam Schmidt
+202502-00284,2025-02-16,CUST-7626,Bluetooth Speaker,Audio,5,133.19,0.00,665.95,119.87,785.82,Credit Card,Chennai,India,APAC,Mei Lin
+202502-00285,2025-02-16,CUST-9147,Mechanical Keyboard,Accessories,2,14.16,0.00,28.32,5.10,33.42,Credit Card,Toronto,Canada,North America,Chris Johnson
+202502-00286,2025-02-06,CUST-7269,Smartwatch,Wearables,3,159.42,0.00,478.26,86.09,564.35,Credit Card,Bengaluru,India,APAC,Arun Kumar
+202502-00287,2025-02-26,CUST-8635,Mechanical Keyboard,Accessories,3,102.69,0.10,277.26,49.91,327.17,Cash on Delivery,Manchester,UK,EMEA,James Wilson
+202502-00288,2025-02-25,CUST-1517,Noise-Canceling Headphones,Audio,1,171.94,0.15,146.15,26.31,172.46,Net Banking,Melbourne,Australia,APAC,Asha Verma
+202502-00289,2025-02-02,CUST-3897,Smartphone 128GB,Electronics,3,1786.70,0.15,4556.09,820.10,5376.19,Debit Card,London,UK,EMEA,Olivia Martin
+202502-00290,2025-02-16,CUST-2792,Smartwatch,Wearables,4,423.24,0.00,1692.96,304.73,1997.69,Cash on Delivery,Toronto,Canada,North America,Sarah Miller
+202502-00291,2025-02-18,CUST-3560,Smartphone 128GB,Electronics,1,874.06,0.15,742.95,133.73,876.68,Cash on Delivery,Berlin,Germany,EMEA,Liam Schmidt
+202502-00292,2025-02-11,CUST-2006,"Laptop 13""",Electronics,5,233.47,0.00,1167.35,210.12,1377.47,UPI,Dubai,UAE,EMEA,James Wilson
+202502-00293,2025-02-25,CUST-6591,Noise-Canceling Headphones,Audio,1,188.41,0.00,188.41,33.91,222.32,Net Banking,Berlin,Germany,EMEA,James Wilson
+202502-00294,2025-02-22,CUST-5001,Mechanical Keyboard,Accessories,2,100.73,0.00,201.46,36.26,237.72,UPI,Chennai,India,APAC,Mei Lin
+202502-00295,2025-02-06,CUST-1322,Smartphone 128GB,Electronics,3,219.15,0.00,657.45,118.34,775.79,Net Banking,Dubai,UAE,EMEA,Olivia Martin
+202502-00296,2025-02-09,CUST-1334,Standing Desk,Furniture,4,637.43,0.00,2549.72,458.95,3008.67,Net Banking,Dubai,UAE,EMEA,Olivia Martin
+202502-00297,2025-02-11,CUST-2601,Webcam HD,Accessories,4,24.01,0.00,96.04,17.29,113.33,UPI,Toronto,Canada,North America,Michael Brown
+202502-00298,2025-02-06,CUST-5907,USB-C Hub,Accessories,4,38.25,0.00,153.00,27.54,180.54,Credit Card,Singapore,Singapore,APAC,Rohit Iyer
+202502-00299,2025-02-10,CUST-5344,"Laptop 13""",Electronics,3,1993.02,0.05,5680.11,1022.42,6702.53,Cash on Delivery,Bengaluru,India,APAC,Asha Verma
+202502-00300,2025-02-19,CUST-6518,"27"" Monitor",Electronics,1,1197.89,0.15,1018.21,183.28,1201.49,Debit Card,Berlin,Germany,EMEA,James Wilson
+202502-00301,2025-02-21,CUST-5945,Smartphone 128GB,Electronics,3,950.88,0.05,2710.01,487.80,3197.81,Net Banking,Munich,Germany,EMEA,Liam Schmidt
+202502-00302,2025-02-20,CUST-9443,Bluetooth Speaker,Audio,5,96.82,0.05,459.89,82.78,542.67,Cash on Delivery,Toronto,Canada,North America,Emily Davis
+202502-00303,2025-02-22,CUST-8656,"27"" Monitor",Electronics,5,1646.53,0.00,8232.65,1481.88,9714.53,Net Banking,Dubai,UAE,EMEA,James Wilson
+202502-00304,2025-02-17,CUST-4287,USB-C Hub,Accessories,4,30.68,0.10,110.45,19.88,130.33,Net Banking,Sydney,Australia,APAC,Mei Lin
+202502-00305,2025-02-28,CUST-2055,Office Chair,Furniture,2,864.45,0.10,1556.01,280.08,1836.09,Wallet,Pune,India,APAC,Mei Lin
+202502-00306,2025-02-22,CUST-4868,Noise-Canceling Headphones,Audio,2,72.02,0.05,136.84,24.63,161.47,UPI,Melbourne,Australia,APAC,Arun Kumar
+202502-00307,2025-02-18,CUST-8145,Noise-Canceling Headphones,Audio,1,104.74,0.00,104.74,18.85,123.59,UPI,San Francisco,USA,North America,Emily Davis
+202502-00308,2025-02-21,CUST-1691,Standing Desk,Furniture,4,808.37,0.00,3233.48,582.03,3815.51,UPI,London,UK,EMEA,James Wilson
+202502-00309,2025-02-14,CUST-6954,Office Chair,Furniture,1,469.27,0.00,469.27,84.47,553.74,Debit Card,New York,USA,North America,Chris Johnson
+202502-00310,2025-02-19,CUST-9196,Printer,Office,1,299.22,0.00,299.22,53.86,353.08,Cash on Delivery,San Francisco,USA,North America,Sarah Miller
+202502-00311,2025-02-03,CUST-4900,Smartwatch,Wearables,1,482.06,0.15,409.75,73.75,483.50,Wallet,New York,USA,North America,Sarah Miller
+202502-00312,2025-02-07,CUST-3363,"Laptop 15""",Electronics,2,546.10,0.15,928.37,167.11,1095.48,UPI,Dubai,UAE,EMEA,James Wilson
+202502-00313,2025-02-16,CUST-9740,USB-C Hub,Accessories,1,54.31,0.05,51.59,9.29,60.88,UPI,Hyderabad,India,APAC,Mei Lin
+202502-00314,2025-02-16,CUST-7025,External SSD 1TB,Storage,3,65.06,0.00,195.18,35.13,230.31,Cash on Delivery,Delhi,India,APAC,Asha Verma
+202502-00315,2025-02-23,CUST-4926,"27"" Monitor",Electronics,5,861.68,0.00,4308.40,775.51,5083.91,Wallet,Berlin,Germany,EMEA,James Wilson
+202502-00316,2025-02-18,CUST-4872,External SSD 1TB,Storage,4,153.23,0.00,612.92,110.33,723.25,Net Banking,San Francisco,USA,North America,Michael Brown
+202502-00317,2025-02-03,CUST-4857,"27"" Monitor",Electronics,2,1739.92,0.15,2957.86,532.41,3490.27,Wallet,Manchester,UK,EMEA,Olivia Martin
+202502-00318,2025-02-26,CUST-1555,"27"" Monitor",Electronics,1,1672.92,0.00,1672.92,301.13,1974.05,Net Banking,Sydney,Australia,APAC,Mei Lin
+202502-00319,2025-02-23,CUST-7920,Printer,Office,1,426.25,0.00,426.25,76.72,502.97,Cash on Delivery,Bengaluru,India,APAC,Mei Lin
+202502-00320,2025-02-14,CUST-9973,Standing Desk,Furniture,3,518.87,0.00,1556.61,280.19,1836.80,Wallet,Pune,India,APAC,Arun Kumar
+202502-00321,2025-02-26,CUST-3229,"Laptop 13""",Electronics,4,520.14,0.00,2080.56,374.50,2455.06,Credit Card,Pune,India,APAC,Rohit Iyer
+202502-00322,2025-02-17,CUST-3131,External SSD 1TB,Storage,5,224.58,0.00,1122.90,202.12,1325.02,UPI,Melbourne,Australia,APAC,Arun Kumar
+202502-00323,2025-02-28,CUST-3187,"27"" Monitor",Electronics,2,1421.81,0.00,2843.62,511.85,3355.47,UPI,Kolkata,India,APAC,Asha Verma
+202502-00324,2025-02-14,CUST-7022,Wireless Mouse,Accessories,4,132.69,0.00,530.76,95.54,626.30,Cash on Delivery,New York,USA,North America,Chris Johnson
+202502-00325,2025-02-01,CUST-4747,Printer,Office,1,489.13,0.05,464.67,83.64,548.31,Credit Card,Munich,Germany,EMEA,Olivia Martin
+202502-00326,2025-02-20,CUST-5262,Wireless Mouse,Accessories,1,144.12,0.00,144.12,25.94,170.06,Credit Card,Vancouver,Canada,North America,Sarah Miller
+202502-00327,2025-02-25,CUST-8433,External SSD 1TB,Storage,4,88.44,0.00,353.76,63.68,417.44,Debit Card,San Francisco,USA,North America,Michael Brown
+202502-00328,2025-02-24,CUST-9096,Noise-Canceling Headphones,Audio,2,189.58,0.05,360.20,64.84,425.04,UPI,Kolkata,India,APAC,Arun Kumar
+202502-00329,2025-02-06,CUST-7693,Webcam HD,Accessories,2,14.03,0.00,28.06,5.05,33.11,Debit Card,Melbourne,Australia,APAC,Rohit Iyer
+202502-00330,2025-02-12,CUST-8506,"Laptop 15""",Electronics,1,1017.43,0.00,1017.43,183.14,1200.57,Wallet,Munich,Germany,EMEA,Sofia Rossi
+202502-00331,2025-02-23,CUST-7283,Standing Desk,Furniture,4,767.77,0.00,3071.08,552.79,3623.87,Cash on Delivery,Delhi,India,APAC,Asha Verma
+202502-00332,2025-02-11,CUST-4847,Bluetooth Speaker,Audio,3,398.79,0.00,1196.37,215.35,1411.72,Cash on Delivery,Delhi,India,APAC,Asha Verma
+202502-00333,2025-02-09,CUST-9266,Smartwatch,Wearables,4,237.30,0.10,854.28,153.77,1008.05,Debit Card,Singapore,Singapore,APAC,Asha Verma
+202502-00334,2025-02-19,CUST-3938,"27"" Monitor",Electronics,2,1081.93,0.00,2163.86,389.49,2553.35,Net Banking,Hyderabad,India,APAC,Asha Verma
+202502-00335,2025-02-11,CUST-9690,Noise-Canceling Headphones,Audio,2,126.35,0.05,240.06,43.21,283.27,Net Banking,San Francisco,USA,North America,Michael Brown
+202502-00336,2025-02-14,CUST-5635,Printer,Office,3,337.43,0.00,1012.29,182.21,1194.50,UPI,Vancouver,Canada,North America,Michael Brown
+202502-00337,2025-02-14,CUST-3703,USB-C Hub,Accessories,4,116.91,0.15,397.49,71.55,469.04,Credit Card,Kolkata,India,APAC,Rohit Iyer
+202502-00338,2025-02-02,CUST-4766,Wireless Mouse,Accessories,1,75.83,0.15,64.46,11.60,76.06,Net Banking,Chennai,India,APAC,Arun Kumar
+202502-00339,2025-02-02,CUST-8233,USB-C Hub,Accessories,5,77.93,0.05,370.17,66.63,436.80,Credit Card,Berlin,Germany,EMEA,James Wilson
+202502-00340,2025-02-07,CUST-5654,Wireless Mouse,Accessories,2,114.99,0.00,229.98,41.40,271.38,Cash on Delivery,Dubai,UAE,EMEA,Sofia Rossi
+202502-00341,2025-02-19,CUST-1067,Smartphone 128GB,Electronics,5,484.05,0.00,2420.25,435.64,2855.89,Debit Card,Toronto,Canada,North America,Chris Johnson
+202502-00342,2025-02-11,CUST-1425,"27"" Monitor",Electronics,1,879.21,0.00,879.21,158.26,1037.47,UPI,Hyderabad,India,APAC,Asha Verma
+202502-00343,2025-02-03,CUST-8540,External SSD 1TB,Storage,4,168.97,0.00,675.88,121.66,797.54,Cash on Delivery,Mumbai,India,APAC,Mei Lin
+202502-00344,2025-02-02,CUST-8423,USB-C Hub,Accessories,5,28.10,0.00,140.50,25.29,165.79,Wallet,London,UK,EMEA,Liam Schmidt
+202502-00345,2025-02-26,CUST-1909,Standing Desk,Furniture,1,601.50,0.00,601.50,108.27,709.77,Credit Card,Munich,Germany,EMEA,Liam Schmidt
+202502-00346,2025-02-06,CUST-4933,Webcam HD,Accessories,4,22.49,0.00,89.96,16.19,106.15,Debit Card,Munich,Germany,EMEA,Olivia Martin
+202502-00347,2025-02-10,CUST-3525,"Laptop 15""",Electronics,3,1058.06,0.10,2856.76,514.22,3370.98,Wallet,Hyderabad,India,APAC,Mei Lin
+202502-00348,2025-02-22,CUST-2574,External SSD 1TB,Storage,3,183.04,0.15,466.75,84.02,550.77,Net Banking,San Francisco,USA,North America,Sarah Miller
+202502-00349,2025-02-03,CUST-7922,Webcam HD,Accessories,3,95.94,0.15,244.65,44.04,288.69,Credit Card,Delhi,India,APAC,Mei Lin
+202502-00350,2025-02-15,CUST-4673,Office Chair,Furniture,2,938.99,0.00,1877.98,338.04,2216.02,UPI,Melbourne,Australia,APAC,Arun Kumar
+202502-00351,2025-02-03,CUST-8825,"27"" Monitor",Electronics,2,1970.74,0.00,3941.48,709.47,4650.95,UPI,New York,USA,North America,Sarah Miller
+202502-00352,2025-02-10,CUST-1781,Smartphone 128GB,Electronics,1,1847.01,0.15,1569.96,282.59,1852.55,Net Banking,Chennai,India,APAC,Arun Kumar
+202502-00353,2025-02-22,CUST-5151,USB-C Hub,Accessories,3,91.98,0.00,275.94,49.67,325.61,Credit Card,Chennai,India,APAC,Arun Kumar
+202502-00354,2025-02-06,CUST-3985,External SSD 1TB,Storage,4,70.86,0.10,255.10,45.92,301.02,UPI,Dubai,UAE,EMEA,Olivia Martin
+202502-00355,2025-02-25,CUST-8371,Smartwatch,Wearables,3,257.49,0.00,772.47,139.04,911.51,Debit Card,Kolkata,India,APAC,Rohit Iyer
+202502-00356,2025-02-03,CUST-5248,External SSD 1TB,Storage,1,164.11,0.15,139.49,25.11,164.60,Credit Card,Mumbai,India,APAC,Rohit Iyer
+202502-00357,2025-02-21,CUST-8817,Bluetooth Speaker,Audio,4,351.45,0.00,1405.80,253.04,1658.84,Cash on Delivery,Toronto,Canada,North America,Michael Brown
+202502-00358,2025-02-20,CUST-6910,Standing Desk,Furniture,4,828.08,0.05,3146.70,566.41,3713.11,Credit Card,Kolkata,India,APAC,Asha Verma
+202502-00359,2025-02-27,CUST-1260,Standing Desk,Furniture,2,875.93,0.05,1664.27,299.57,1963.84,Wallet,New York,USA,North America,Sarah Miller
+202502-00360,2025-02-27,CUST-9824,Mechanical Keyboard,Accessories,1,52.13,0.15,44.31,7.98,52.29,Net Banking,Mumbai,India,APAC,Asha Verma
+202502-00361,2025-02-06,CUST-3497,Standing Desk,Furniture,4,968.20,0.15,3291.88,592.54,3884.42,Cash on Delivery,New York,USA,North America,Emily Davis
+202502-00362,2025-02-10,CUST-7418,"Laptop 13""",Electronics,3,164.57,0.00,493.71,88.87,582.58,Wallet,Sydney,Australia,APAC,Arun Kumar
+202502-00363,2025-02-28,CUST-9121,Standing Desk,Furniture,5,644.34,0.10,2899.53,521.92,3421.45,Credit Card,Toronto,Canada,North America,Sarah Miller
+202502-00364,2025-02-16,CUST-9410,Smartwatch,Wearables,5,566.35,0.00,2831.75,509.71,3341.46,Net Banking,New York,USA,North America,Chris Johnson
+202502-00365,2025-02-17,CUST-1311,Noise-Canceling Headphones,Audio,5,146.86,0.15,624.16,112.35,736.51,Net Banking,Chennai,India,APAC,Arun Kumar
+202502-00366,2025-02-20,CUST-6681,Bluetooth Speaker,Audio,4,37.70,0.05,143.26,25.79,169.05,Net Banking,Berlin,Germany,EMEA,Olivia Martin
+202502-00367,2025-02-08,CUST-9317,Mechanical Keyboard,Accessories,5,137.27,0.15,583.40,105.01,688.41,Debit Card,London,UK,EMEA,Olivia Martin
+202502-00368,2025-02-14,CUST-6902,Webcam HD,Accessories,4,121.97,0.00,487.88,87.82,575.70,Cash on Delivery,Kolkata,India,APAC,Mei Lin
+202502-00369,2025-02-23,CUST-2412,Office Chair,Furniture,4,233.60,0.15,794.24,142.96,937.20,Credit Card,Sydney,Australia,APAC,Arun Kumar
+202502-00370,2025-02-10,CUST-4845,Mechanical Keyboard,Accessories,5,16.59,0.10,74.66,13.44,88.10,UPI,Pune,India,APAC,Rohit Iyer
+202502-00371,2025-02-27,CUST-9248,"Laptop 13""",Electronics,1,774.81,0.05,736.07,132.49,868.56,Credit Card,Singapore,Singapore,APAC,Rohit Iyer
+202502-00372,2025-02-16,CUST-5224,USB-C Hub,Accessories,3,117.71,0.00,353.13,63.56,416.69,Cash on Delivery,San Francisco,USA,North America,Emily Davis
+202502-00373,2025-02-28,CUST-9444,Smartwatch,Wearables,1,447.33,0.00,447.33,80.52,527.85,Net Banking,Melbourne,Australia,APAC,Asha Verma
+202502-00374,2025-02-04,CUST-2669,External SSD 1TB,Storage,5,70.07,0.00,350.35,63.06,413.41,Debit Card,Berlin,Germany,EMEA,Sofia Rossi
+202502-00375,2025-02-24,CUST-5786,Standing Desk,Furniture,4,790.53,0.00,3162.12,569.18,3731.30,Debit Card,Berlin,Germany,EMEA,Liam Schmidt
+202502-00376,2025-02-27,CUST-3257,"Laptop 15""",Electronics,2,962.35,0.00,1924.70,346.45,2271.15,Debit Card,Toronto,Canada,North America,Michael Brown
+202502-00377,2025-02-10,CUST-9274,Wireless Mouse,Accessories,1,47.24,0.00,47.24,8.50,55.74,Net Banking,Berlin,Germany,EMEA,Sofia Rossi
+202502-00378,2025-02-05,CUST-9677,Noise-Canceling Headphones,Audio,2,81.06,0.15,137.80,24.80,162.60,Net Banking,Vancouver,Canada,North America,Michael Brown
+202502-00379,2025-02-01,CUST-8251,Wireless Mouse,Accessories,1,110.47,0.00,110.47,19.88,130.35,Credit Card,Manchester,UK,EMEA,Liam Schmidt
+202502-00380,2025-02-13,CUST-3692,Noise-Canceling Headphones,Audio,1,175.51,0.05,166.73,30.01,196.74,Cash on Delivery,Delhi,India,APAC,Mei Lin
+202502-00381,2025-02-14,CUST-7586,Printer,Office,5,446.89,0.00,2234.45,402.20,2636.65,UPI,Berlin,Germany,EMEA,James Wilson
+202502-00382,2025-02-27,CUST-5583,Printer,Office,5,336.37,0.15,1429.57,257.32,1686.89,Net Banking,Kolkata,India,APAC,Arun Kumar
+202502-00383,2025-02-23,CUST-6656,Printer,Office,4,405.67,0.00,1622.68,292.08,1914.76,Credit Card,Delhi,India,APAC,Mei Lin
+202502-00384,2025-02-13,CUST-3064,Smartphone 128GB,Electronics,5,675.27,0.10,3038.72,546.97,3585.69,Cash on Delivery,Manchester,UK,EMEA,Sofia Rossi
+202502-00385,2025-02-01,CUST-1456,Printer,Office,5,328.85,0.10,1479.83,266.37,1746.20,Wallet,Sydney,Australia,APAC,Asha Verma
+202502-00386,2025-02-24,CUST-1982,External SSD 1TB,Storage,3,122.34,0.00,367.02,66.06,433.08,Credit Card,Chennai,India,APAC,Arun Kumar
+202502-00387,2025-02-10,CUST-1085,Bluetooth Speaker,Audio,3,393.69,0.00,1181.07,212.59,1393.66,Cash on Delivery,Dubai,UAE,EMEA,Sofia Rossi
+202502-00388,2025-02-12,CUST-5902,"27"" Monitor",Electronics,5,1394.00,0.00,6970.00,1254.60,8224.60,Cash on Delivery,New York,USA,North America,Chris Johnson
+202502-00389,2025-02-11,CUST-9461,Smartwatch,Wearables,2,507.88,0.00,1015.76,182.84,1198.60,Debit Card,Sydney,Australia,APAC,Arun Kumar
+202502-00390,2025-02-03,CUST-2511,"Laptop 13""",Electronics,4,1793.74,0.15,6098.72,1097.77,7196.49,Credit Card,Berlin,Germany,EMEA,Olivia Martin
+202502-00391,2025-02-19,CUST-9502,Webcam HD,Accessories,4,132.08,0.15,449.07,80.83,529.90,Net Banking,Toronto,Canada,North America,Sarah Miller
+202502-00392,2025-02-27,CUST-3668,Wireless Mouse,Accessories,5,27.80,0.00,139.00,25.02,164.02,Debit Card,Vancouver,Canada,North America,Chris Johnson
+202502-00393,2025-02-23,CUST-4483,Bluetooth Speaker,Audio,4,42.06,0.10,151.42,27.26,178.68,Credit Card,Sydney,Australia,APAC,Asha Verma
+202502-00394,2025-02-04,CUST-7055,Smartwatch,Wearables,3,100.95,0.10,272.57,49.06,321.63,UPI,Berlin,Germany,EMEA,Liam Schmidt
+202502-00395,2025-02-10,CUST-8961,"Laptop 13""",Electronics,2,412.96,0.00,825.92,148.67,974.59,UPI,London,UK,EMEA,Sofia Rossi
+202502-00396,2025-02-06,CUST-9008,"Laptop 13""",Electronics,1,1162.94,0.00,1162.94,209.33,1372.27,Net Banking,Toronto,Canada,North America,Michael Brown
+202502-00397,2025-02-19,CUST-8411,Printer,Office,3,408.17,0.05,1163.28,209.39,1372.67,Debit Card,Vancouver,Canada,North America,Sarah Miller
+202502-00398,2025-02-25,CUST-8371,Office Chair,Furniture,4,251.10,0.00,1004.40,180.79,1185.19,Credit Card,Sydney,Australia,APAC,Arun Kumar
+202502-00399,2025-02-08,CUST-7478,USB-C Hub,Accessories,5,16.41,0.00,82.05,14.77,96.82,Net Banking,San Francisco,USA,North America,Chris Johnson
+202502-00400,2025-02-28,CUST-3713,Standing Desk,Furniture,1,623.36,0.00,623.36,112.20,735.56,Wallet,London,UK,EMEA,James Wilson
+202502-00401,2025-02-21,CUST-2395,Mechanical Keyboard,Accessories,5,85.86,0.00,429.30,77.27,506.57,Cash on Delivery,Vancouver,Canada,North America,Emily Davis
+202502-00402,2025-02-25,CUST-8796,Smartphone 128GB,Electronics,1,372.52,0.00,372.52,67.05,439.57,Debit Card,Mumbai,India,APAC,Mei Lin
+202502-00403,2025-02-26,CUST-4371,Mechanical Keyboard,Accessories,5,72.19,0.00,360.95,64.97,425.92,Cash on Delivery,Manchester,UK,EMEA,Olivia Martin
+202502-00404,2025-02-19,CUST-1737,Bluetooth Speaker,Audio,1,155.78,0.00,155.78,28.04,183.82,Cash on Delivery,Manchester,UK,EMEA,Olivia Martin
+202502-00405,2025-02-09,CUST-2491,"Laptop 15""",Electronics,1,1152.29,0.05,1094.68,197.04,1291.72,UPI,Bengaluru,India,APAC,Rohit Iyer
+202502-00406,2025-02-10,CUST-7672,Office Chair,Furniture,2,171.84,0.00,343.68,61.86,405.54,Debit Card,Mumbai,India,APAC,Asha Verma
+202502-00407,2025-02-10,CUST-7388,"Laptop 15""",Electronics,3,413.55,0.00,1240.65,223.32,1463.97,UPI,Munich,Germany,EMEA,James Wilson
+202502-00408,2025-02-02,CUST-4318,Mechanical Keyboard,Accessories,5,92.04,0.15,391.17,70.41,461.58,Credit Card,San Francisco,USA,North America,Chris Johnson
+202502-00409,2025-02-11,CUST-8615,Smartphone 128GB,Electronics,4,271.10,0.05,1030.18,185.43,1215.61,Credit Card,San Francisco,USA,North America,Chris Johnson
+202502-00410,2025-02-08,CUST-3057,"27"" Monitor",Electronics,5,902.48,0.05,4286.78,771.62,5058.40,Debit Card,Berlin,Germany,EMEA,Sofia Rossi
+202502-00411,2025-02-26,CUST-5016,Smartphone 128GB,Electronics,4,1928.50,0.00,7714.00,1388.52,9102.52,Credit Card,Melbourne,Australia,APAC,Mei Lin
+202502-00412,2025-02-21,CUST-3742,"Laptop 13""",Electronics,1,1876.99,0.10,1689.29,304.07,1993.36,Wallet,Munich,Germany,EMEA,Liam Schmidt
+202502-00413,2025-02-27,CUST-4485,Smartwatch,Wearables,5,226.28,0.00,1131.40,203.65,1335.05,UPI,Bengaluru,India,APAC,Arun Kumar
+202502-00414,2025-02-23,CUST-3014,External SSD 1TB,Storage,2,234.02,0.00,468.04,84.25,552.29,Net Banking,Kolkata,India,APAC,Mei Lin
+202502-00415,2025-02-22,CUST-6613,Office Chair,Furniture,3,982.08,0.00,2946.24,530.32,3476.56,UPI,New York,USA,North America,Michael Brown
+202502-00416,2025-02-11,CUST-4450,Bluetooth Speaker,Audio,5,151.53,0.00,757.65,136.38,894.03,Debit Card,Mumbai,India,APAC,Arun Kumar
+202502-00417,2025-02-01,CUST-1156,Office Chair,Furniture,2,483.58,0.00,967.16,174.09,1141.25,Wallet,Toronto,Canada,North America,Sarah Miller
+202502-00418,2025-02-18,CUST-2329,Webcam HD,Accessories,1,85.41,0.00,85.41,15.37,100.78,Wallet,Melbourne,Australia,APAC,Asha Verma
+202502-00419,2025-02-12,CUST-7166,External SSD 1TB,Storage,5,145.91,0.00,729.55,131.32,860.87,Credit Card,Melbourne,Australia,APAC,Mei Lin
+202502-00420,2025-02-07,CUST-8283,"Laptop 13""",Electronics,2,1524.82,0.00,3049.64,548.94,3598.58,Wallet,Berlin,Germany,EMEA,Sofia Rossi
+202502-00421,2025-02-03,CUST-5967,Webcam HD,Accessories,2,42.80,0.10,77.04,13.87,90.91,Credit Card,San Francisco,USA,North America,Sarah Miller
+202502-00422,2025-02-23,CUST-4425,"Laptop 13""",Electronics,2,1970.89,0.00,3941.78,709.52,4651.30,Credit Card,San Francisco,USA,North America,Sarah Miller
+202502-00423,2025-02-06,CUST-4174,Office Chair,Furniture,5,711.51,0.00,3557.55,640.36,4197.91,Debit Card,Bengaluru,India,APAC,Rohit Iyer
+202502-00424,2025-02-24,CUST-2065,Wireless Mouse,Accessories,3,140.70,0.00,422.10,75.98,498.08,Cash on Delivery,San Francisco,USA,North America,Emily Davis
+202502-00425,2025-02-28,CUST-1378,Standing Desk,Furniture,5,660.72,0.00,3303.60,594.65,3898.25,Net Banking,Mumbai,India,APAC,Arun Kumar
+202502-00426,2025-02-21,CUST-1849,External SSD 1TB,Storage,3,163.81,0.00,491.43,88.46,579.89,UPI,Chennai,India,APAC,Arun Kumar
+202502-00427,2025-02-16,CUST-6922,Smartphone 128GB,Electronics,1,1785.03,0.10,1606.53,289.18,1895.71,Net Banking,Singapore,Singapore,APAC,Arun Kumar
+202502-00428,2025-02-11,CUST-1084,Noise-Canceling Headphones,Audio,2,153.84,0.00,307.68,55.38,363.06,Credit Card,New York,USA,North America,Sarah Miller
+202502-00429,2025-02-03,CUST-5095,Mechanical Keyboard,Accessories,2,56.09,0.00,112.18,20.19,132.37,Credit Card,Toronto,Canada,North America,Sarah Miller
+202502-00430,2025-02-26,CUST-1393,Smartwatch,Wearables,3,517.06,0.15,1318.50,237.33,1555.83,Debit Card,Manchester,UK,EMEA,James Wilson
+202502-00431,2025-02-27,CUST-6465,Smartphone 128GB,Electronics,2,1895.56,0.00,3791.12,682.40,4473.52,Cash on Delivery,Melbourne,Australia,APAC,Asha Verma
+202502-00432,2025-02-21,CUST-8314,Smartwatch,Wearables,1,124.48,0.00,124.48,22.41,146.89,Net Banking,Manchester,UK,EMEA,James Wilson
+202502-00433,2025-02-26,CUST-3089,"Laptop 13""",Electronics,4,251.36,0.00,1005.44,180.98,1186.42,Net Banking,Bengaluru,India,APAC,Asha Verma
+202502-00434,2025-02-22,CUST-1914,Smartphone 128GB,Electronics,1,695.60,0.00,695.60,125.21,820.81,Cash on Delivery,Sydney,Australia,APAC,Rohit Iyer
+202502-00435,2025-02-28,CUST-1173,Bluetooth Speaker,Audio,4,201.76,0.00,807.04,145.27,952.31,UPI,Mumbai,India,APAC,Arun Kumar
+202502-00436,2025-02-17,CUST-6377,Smartwatch,Wearables,2,136.16,0.00,272.32,49.02,321.34,Cash on Delivery,Kolkata,India,APAC,Rohit Iyer
+202502-00437,2025-02-21,CUST-9337,"27"" Monitor",Electronics,3,928.86,0.00,2786.58,501.58,3288.16,Net Banking,Pune,India,APAC,Rohit Iyer
+202502-00438,2025-02-05,CUST-1722,"Laptop 13""",Electronics,2,726.58,0.10,1307.84,235.41,1543.25,UPI,Dubai,UAE,EMEA,Sofia Rossi
+202502-00439,2025-02-05,CUST-8692,"27"" Monitor",Electronics,5,784.37,0.00,3921.85,705.93,4627.78,Cash on Delivery,Dubai,UAE,EMEA,Sofia Rossi
+202502-00440,2025-02-02,CUST-4889,Smartphone 128GB,Electronics,5,1738.60,0.05,8258.35,1486.50,9744.85,Debit Card,Kolkata,India,APAC,Asha Verma
+202502-00441,2025-02-11,CUST-4102,Office Chair,Furniture,4,731.41,0.00,2925.64,526.62,3452.26,Cash on Delivery,Manchester,UK,EMEA,Liam Schmidt
+202502-00442,2025-02-20,CUST-5909,Noise-Canceling Headphones,Audio,3,90.04,0.00,270.12,48.62,318.74,Net Banking,New York,USA,North America,Chris Johnson
+202502-00443,2025-02-21,CUST-4654,Standing Desk,Furniture,2,530.55,0.15,901.93,162.35,1064.28,Wallet,Manchester,UK,EMEA,Olivia Martin
+202502-00444,2025-02-07,CUST-7558,Wireless Mouse,Accessories,1,60.79,0.00,60.79,10.94,71.73,Cash on Delivery,Chennai,India,APAC,Rohit Iyer
+202502-00445,2025-02-10,CUST-8215,Mechanical Keyboard,Accessories,5,137.78,0.00,688.90,124.00,812.90,Debit Card,Kolkata,India,APAC,Mei Lin
+202502-00446,2025-02-06,CUST-4587,Printer,Office,3,381.91,0.05,1088.44,195.92,1284.36,Debit Card,Kolkata,India,APAC,Asha Verma
+202502-00447,2025-02-06,CUST-5289,Printer,Office,1,88.82,0.00,88.82,15.99,104.81,Net Banking,Chennai,India,APAC,Mei Lin
+202502-00448,2025-02-07,CUST-5998,Bluetooth Speaker,Audio,2,166.77,0.05,316.86,57.03,373.89,Cash on Delivery,Sydney,Australia,APAC,Asha Verma
+202502-00449,2025-02-04,CUST-3366,Printer,Office,2,413.86,0.15,703.56,126.64,830.20,Wallet,Berlin,Germany,EMEA,Liam Schmidt
+202502-00450,2025-02-20,CUST-8037,Office Chair,Furniture,2,930.49,0.00,1860.98,334.98,2195.96,Cash on Delivery,Kolkata,India,APAC,Mei Lin
+202502-00451,2025-02-26,CUST-3434,USB-C Hub,Accessories,2,17.46,0.00,34.92,6.29,41.21,Debit Card,Vancouver,Canada,North America,Sarah Miller
+202502-00452,2025-02-07,CUST-2333,Webcam HD,Accessories,4,120.74,0.00,482.96,86.93,569.89,Debit Card,Vancouver,Canada,North America,Sarah Miller
+202502-00453,2025-02-25,CUST-9342,USB-C Hub,Accessories,4,82.64,0.10,297.50,53.55,351.05,Cash on Delivery,Toronto,Canada,North America,Sarah Miller
+202502-00454,2025-02-16,CUST-5396,Smartwatch,Wearables,4,411.81,0.00,1647.24,296.50,1943.74,Wallet,Delhi,India,APAC,Rohit Iyer
+202502-00455,2025-02-08,CUST-4325,Bluetooth Speaker,Audio,2,176.48,0.15,300.02,54.00,354.02,Cash on Delivery,Pune,India,APAC,Mei Lin
+202502-00456,2025-02-09,CUST-2388,Wireless Mouse,Accessories,1,51.31,0.05,48.74,8.77,57.51,Cash on Delivery,Delhi,India,APAC,Arun Kumar
+202502-00457,2025-02-17,CUST-6511,Noise-Canceling Headphones,Audio,4,202.99,0.15,690.17,124.23,814.40,UPI,San Francisco,USA,North America,Sarah Miller
+202502-00458,2025-02-01,CUST-3942,Bluetooth Speaker,Audio,2,128.28,0.00,256.56,46.18,302.74,UPI,Vancouver,Canada,North America,Chris Johnson
+202502-00459,2025-02-26,CUST-5528,Printer,Office,2,121.33,0.00,242.66,43.68,286.34,Cash on Delivery,Kolkata,India,APAC,Mei Lin
+202502-00460,2025-02-07,CUST-6394,"27"" Monitor",Electronics,3,1528.64,0.00,4585.92,825.47,5411.39,UPI,Kolkata,India,APAC,Rohit Iyer
+202502-00461,2025-02-28,CUST-9898,Printer,Office,3,83.58,0.10,225.67,40.62,266.29,Net Banking,Munich,Germany,EMEA,James Wilson
+202502-00462,2025-02-16,CUST-9399,Webcam HD,Accessories,2,131.17,0.05,249.22,44.86,294.08,Net Banking,New York,USA,North America,Sarah Miller
+202502-00463,2025-02-24,CUST-8559,USB-C Hub,Accessories,1,53.83,0.15,45.76,8.24,54.00,Debit Card,Melbourne,Australia,APAC,Arun Kumar
+202502-00464,2025-02-28,CUST-1493,USB-C Hub,Accessories,2,90.85,0.00,181.70,32.71,214.41,Net Banking,Berlin,Germany,EMEA,Liam Schmidt
+202502-00465,2025-02-08,CUST-7867,Noise-Canceling Headphones,Audio,4,312.25,0.00,1249.00,224.82,1473.82,UPI,Manchester,UK,EMEA,James Wilson
+202502-00466,2025-02-19,CUST-1527,Printer,Office,2,144.55,0.00,289.10,52.04,341.14,UPI,Dubai,UAE,EMEA,Olivia Martin
+202502-00467,2025-02-13,CUST-4345,Noise-Canceling Headphones,Audio,1,227.76,0.00,227.76,41.00,268.76,UPI,Dubai,UAE,EMEA,Olivia Martin
+202502-00468,2025-02-21,CUST-5991,"Laptop 15""",Electronics,2,342.98,0.00,685.96,123.47,809.43,Wallet,Toronto,Canada,North America,Chris Johnson
+202502-00469,2025-02-06,CUST-4260,"Laptop 15""",Electronics,4,675.06,0.00,2700.24,486.04,3186.28,Net Banking,Delhi,India,APAC,Mei Lin
+202502-00470,2025-02-17,CUST-1180,Wireless Mouse,Accessories,3,130.36,0.05,371.53,66.88,438.41,Credit Card,Hyderabad,India,APAC,Arun Kumar
+202502-00471,2025-02-16,CUST-2126,Noise-Canceling Headphones,Audio,2,78.07,0.15,132.72,23.89,156.61,Wallet,Toronto,Canada,North America,Emily Davis
+202502-00472,2025-02-20,CUST-6084,Smartwatch,Wearables,2,341.29,0.00,682.58,122.86,805.44,UPI,Kolkata,India,APAC,Asha Verma
+202502-00473,2025-02-05,CUST-8302,"Laptop 15""",Electronics,4,1268.97,0.10,4568.29,822.29,5390.58,Cash on Delivery,Toronto,Canada,North America,Sarah Miller
+202502-00474,2025-02-15,CUST-1640,Standing Desk,Furniture,1,373.36,0.00,373.36,67.20,440.56,Net Banking,Berlin,Germany,EMEA,Liam Schmidt
+202502-00475,2025-02-13,CUST-3869,Noise-Canceling Headphones,Audio,2,96.44,0.00,192.88,34.72,227.60,Net Banking,Melbourne,Australia,APAC,Arun Kumar
+202502-00476,2025-02-22,CUST-4005,Standing Desk,Furniture,5,204.07,0.00,1020.35,183.66,1204.01,Credit Card,New York,USA,North America,Emily Davis
+202502-00477,2025-02-09,CUST-9810,"27"" Monitor",Electronics,1,1441.38,0.00,1441.38,259.45,1700.83,Debit Card,Toronto,Canada,North America,Sarah Miller
+202502-00478,2025-02-25,CUST-2986,USB-C Hub,Accessories,1,115.76,0.10,104.18,18.75,122.93,Net Banking,Melbourne,Australia,APAC,Rohit Iyer
+202502-00479,2025-02-09,CUST-4397,Smartphone 128GB,Electronics,1,1005.01,0.15,854.26,153.77,1008.03,Net Banking,Manchester,UK,EMEA,Olivia Martin
+202502-00480,2025-02-28,CUST-4185,Noise-Canceling Headphones,Audio,1,33.97,0.05,32.27,5.81,38.08,UPI,Melbourne,Australia,APAC,Arun Kumar
+202502-00481,2025-02-15,CUST-2117,"Laptop 15""",Electronics,5,1365.49,0.00,6827.45,1228.94,8056.39,Net Banking,Hyderabad,India,APAC,Arun Kumar
+202502-00482,2025-02-27,CUST-5573,External SSD 1TB,Storage,2,100.94,0.00,201.88,36.34,238.22,Debit Card,London,UK,EMEA,James Wilson
+202502-00483,2025-02-18,CUST-7403,Wireless Mouse,Accessories,1,103.99,0.10,93.59,16.85,110.44,Debit Card,Melbourne,Australia,APAC,Mei Lin
+202502-00484,2025-02-06,CUST-4549,Standing Desk,Furniture,1,905.57,0.15,769.73,138.55,908.28,Wallet,Delhi,India,APAC,Asha Verma
+202502-00485,2025-02-13,CUST-6051,Bluetooth Speaker,Audio,1,251.34,0.15,213.64,38.46,252.10,Debit Card,New York,USA,North America,Michael Brown
+202502-00486,2025-02-08,CUST-4276,"Laptop 15""",Electronics,1,930.11,0.00,930.11,167.42,1097.53,UPI,Kolkata,India,APAC,Asha Verma
+202502-00487,2025-02-08,CUST-2582,Webcam HD,Accessories,2,111.36,0.00,222.72,40.09,262.81,UPI,Manchester,UK,EMEA,Sofia Rossi
+202502-00488,2025-02-20,CUST-4393,Printer,Office,5,245.93,0.05,1168.17,210.27,1378.44,Debit Card,Chennai,India,APAC,Mei Lin
+202502-00489,2025-02-11,CUST-3844,"Laptop 13""",Electronics,4,1359.89,0.05,5167.58,930.16,6097.74,Net Banking,New York,USA,North America,Chris Johnson
+202502-00490,2025-02-22,CUST-5562,Office Chair,Furniture,5,444.70,0.05,2112.32,380.22,2492.54,Net Banking,London,UK,EMEA,Olivia Martin
+202502-00491,2025-02-04,CUST-9784,Webcam HD,Accessories,5,34.00,0.00,170.00,30.60,200.60,Cash on Delivery,Manchester,UK,EMEA,Olivia Martin
+202502-00492,2025-02-22,CUST-3177,USB-C Hub,Accessories,2,98.95,0.00,197.90,35.62,233.52,UPI,Toronto,Canada,North America,Chris Johnson
+202502-00493,2025-02-11,CUST-1289,Smartwatch,Wearables,5,313.43,0.05,1488.79,267.98,1756.77,Cash on Delivery,Dubai,UAE,EMEA,James Wilson
+202502-00494,2025-02-08,CUST-1347,Smartwatch,Wearables,1,240.60,0.00,240.60,43.31,283.91,Debit Card,Bengaluru,India,APAC,Asha Verma
+202502-00495,2025-02-05,CUST-7136,Bluetooth Speaker,Audio,3,104.74,0.00,314.22,56.56,370.78,Debit Card,Melbourne,Australia,APAC,Mei Lin
+202502-00496,2025-02-05,CUST-5556,USB-C Hub,Accessories,1,82.92,0.00,82.92,14.93,97.85,Wallet,London,UK,EMEA,James Wilson
+202502-00497,2025-02-08,CUST-6427,USB-C Hub,Accessories,2,38.81,0.05,73.74,13.27,87.01,Wallet,New York,USA,North America,Sarah Miller
+202502-00498,2025-02-17,CUST-6269,Wireless Mouse,Accessories,4,98.17,0.15,333.78,60.08,393.86,Credit Card,Kolkata,India,APAC,Asha Verma
+202502-00499,2025-02-21,CUST-3318,Mechanical Keyboard,Accessories,2,22.85,0.05,43.41,7.81,51.22,Debit Card,Vancouver,Canada,North America,Chris Johnson
+202502-00500,2025-02-14,CUST-8652,"27"" Monitor",Electronics,2,1485.10,0.05,2821.69,507.90,3329.59,Cash on Delivery,New York,USA,North America,Michael Brown

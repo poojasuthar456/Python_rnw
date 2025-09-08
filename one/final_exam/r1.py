@@ -1,120 +1,158 @@
-(1, 86, 20, '2023-04-07');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (2, 37, 14, '2023-01-25');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (3, 9, 7, '2023-04-29');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (4, 90, 6, '2024-10-12');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (5, 61, 10, '2024-02-01');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (6, 120, 4, '2025-06-02');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (7, 6, 22, '2023-09-08');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (8, 30, 42, '2022-08-17');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (9, 50, 14, '2023-06-29');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (10, 70, 47, '2024-07-19');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (11, 44, 23, '2023-11-10');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (12, 47, 30, '2022-01-13');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (13, 49, 32, '2023-05-18');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (14, 72, 15, '2024-10-14');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (15, 2, 25, '2022-01-25');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (16, 82, 31, '2024-04-11');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (17, 102, 1, '2023-08-12');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (18, 64, 6, '2024-08-08');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (19, 32, 7, '2024-10-25');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (20, 70, 43, '2023-02-07');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (21, 94, 29, '2022-07-30');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (22, 11, 18, '2024-11-14');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (23, 14, 39, '2023-05-27');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (24, 48, 1, '2023-02-19');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (25, 86, 11, '2022-08-15');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (26, 116, 4, '2024-04-06');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (27, 18, 13, '2023-05-30');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (28, 13, 38, '2024-12-24');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (29, 31, 14, '2022-09-22');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (30, 55, 22, '2024-05-11');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (31, 27, 26, '2024-02-25');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (32, 104, 42, '2024-09-19');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (33, 13, 39, '2024-11-28');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (34, 81, 47, '2024-08-09');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (35, 28, 44, '2025-03-10');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (36, 13, 35, '2023-09-21');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (37, 10, 19, '2023-01-10');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (38, 108, 37, '2024-05-13');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (39, 100, 12, '2022-10-20');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (40, 49, 42, '2022-12-07');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (41, 71, 36, '2024-08-01');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (42, 42, 10, '2023-01-20');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (43, 4, 21, '2025-01-18');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (44, 81, 4, '2024-10-05');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (45, 44, 12, '2025-06-05');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (46, 77, 8, '2024-06-01');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (47, 90, 33, '2024-09-02');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (48, 88, 28, '2022-03-13');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (49, 78, 21, '2024-12-18');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (50, 106, 41, '2022-04-08');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (51, 37, 18, '2022-12-25');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (52, 38, 43, '2025-06-12');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (53, 10, 35, '2023-06-10');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (54, 104, 4, '2023-07-21');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (55, 49, 29, '2023-01-27');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (56, 47, 6, '2022-03-04');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (57, 14, 15, '2023-04-12');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (58, 106, 2, '2022-03-18');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (59, 90, 40, '2023-03-31');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (60, 97, 1, '2023-03-21');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (61, 67, 18, '2024-09-04');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (62, 49, 21, '2024-02-27');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (63, 46, 3, '2023-12-27');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (64, 76, 12, '2023-12-18');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (65, 62, 36, '2024-07-22');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (66, 5, 34, '2022-01-20');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (67, 120, 10, '2023-04-25');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (68, 57, 5, '2022-06-24');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (69, 34, 40, '2023-12-04');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (70, 27, 50, '2023-11-14');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (71, 88, 39, '2024-04-26');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (72, 98, 19, '2025-01-10');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (73, 50, 49, '2022-07-29');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (74, 50, 20, '2024-10-28');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (75, 5, 10, '2023-01-08');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (76, 47, 37, '2022-02-28');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (77, 70, 26, '2022-09-08');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (78, 84, 17, '2023-06-06');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (79, 3, 48, '2022-02-28');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (80, 79, 17, '2024-09-20');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (81, 116, 4, '2024-12-24');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (82, 40, 36, '2025-07-27');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (83, 37, 3, '2025-07-27');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (84, 69, 43, '2024-03-31');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (85, 53, 12, '2022-04-27');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (86, 38, 19, '2023-01-20');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (87, 109, 13, '2022-10-17');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (88, 62, 3, '2024-03-10');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (89, 13, 1, '2024-03-22');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (90, 91, 28, '2024-05-13');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (91, 86, 11, '2023-08-31');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (92, 11, 13, '2022-09-03');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (93, 70, 6, '2023-10-30');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (94, 26, 42, '2022-07-03');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (95, 24, 43, '2024-12-29');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (96, 29, 12, '2024-07-08');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (97, 22, 11, '2022-08-20');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (98, 25, 20, '2024-02-27');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (99, 90, 37, '2025-04-28');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (100, 116, 30, '2023-03-29');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (101, 36, 33, '2023-07-12');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (102, 53, 49, '2022-10-07');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (103, 66, 40, '2025-05-01');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (104, 56, 49, '2022-03-19');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (105, 64, 18, '2022-12-12');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (106, 5, 18, '2023-05-17');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (107, 14, 42, '2025-03-09');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (108, 95, 41, '2024-09-11');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (109, 110, 17, '2022-04-17');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (110, 109, 38, '2025-07-27');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (111, 26, 1, '2024-12-01');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (112, 27, 1, '2025-06-25');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (113, 25, 36, '2025-04-02');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (114, 74, 34, '2024-12-13');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (115, 55, 44, '2024-11-11');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (116, 44, 36, '2022-09-24');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (117, 82, 1, '2023-12-01');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (118, 41, 36, '2022-03-09');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (119, 55, 34, '2024-04-10');
-INSERT INTO Enrollment_table (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES (120, 85, 37, '2024-01-30');
+import csv
+import random
+from datetime import date
+
+random.seed(42)  # reproducible
+
+PRODUCTS = [
+    ("Laptop 13\"", "Electronics"),
+    ("Laptop 15\"", "Electronics"),
+    ("Wireless Mouse", "Accessories"),
+    ("Mechanical Keyboard", "Accessories"),
+    ("27\" Monitor", "Electronics"),
+    ("USB-C Hub", "Accessories"),
+    ("Noise-Canceling Headphones", "Audio"),
+    ("Bluetooth Speaker", "Audio"),
+    ("Smartphone 128GB", "Electronics"),
+    ("Smartwatch", "Wearables"),
+    ("Office Chair", "Furniture"),
+    ("Standing Desk", "Furniture"),
+    ("Webcam HD", "Accessories"),
+    ("External SSD 1TB", "Storage"),
+    ("Printer", "Office"),
+]
+
+PAYMENT_METHODS = ["Credit Card", "Debit Card", "UPI", "Net Banking", "Cash on Delivery", "Wallet"]
+
+# City-country pairs and mapped regions
+CITY_COUNTRY = [
+    ("Mumbai", "India"), ("Delhi", "India"), ("Bengaluru", "India"), ("Chennai", "India"),
+    ("Hyderabad", "India"), ("Pune", "India"), ("Kolkata", "India"),
+    ("New York", "USA"), ("San Francisco", "USA"),
+    ("London", "UK"), ("Manchester", "UK"),
+    ("Berlin", "Germany"), ("Munich", "Germany"),
+    ("Sydney", "Australia"), ("Melbourne", "Australia"),
+    ("Toronto", "Canada"), ("Vancouver", "Canada"),
+    ("Singapore", "Singapore"), ("Dubai", "UAE")
+]
+
+COUNTRY_REGION = {
+    "India": "APAC",
+    "USA": "North America",
+    "Canada": "North America",
+    "UK": "EMEA",
+    "Germany": "EMEA",
+    "Australia": "APAC",
+    "Singapore": "APAC",
+    "UAE": "EMEA",
+}
+
+# Sales reps by region
+REGION_SALESREPS = {
+    "APAC": ["Asha Verma", "Rohit Iyer", "Mei Lin", "Arun Kumar"],
+    "North America": ["Chris Johnson", "Emily Davis", "Michael Brown", "Sarah Miller"],
+    "EMEA": ["James Wilson", "Sofia Rossi", "Liam Schmidt", "Olivia Martin"],
+}
+
+UNIT_PRICE_RANGES = {
+    "Electronics": (150.0, 2000.0),
+    "Accessories": (10.0, 150.0),
+    "Audio": (30.0, 400.0),
+    "Wearables": (80.0, 600.0),
+    "Furniture": (120.0, 1000.0),
+    "Storage": (60.0, 300.0),
+    "Office": (80.0, 500.0),
+}
+
+GST_RATE = 0.18  # 18%
+
+def random_date_in_month(year: int, month: int) -> date:
+    if month in (1, 3, 5, 7, 8, 10, 12):
+        days = 31
+    elif month in (4, 6, 9, 11):
+        days = 30
+    else:
+        is_leap = (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0))
+        days = 29 if is_leap else 28
+    day = random.randint(1, days)
+    return date(year, month, day)
+
+def random_unit_price(category: str) -> float:
+    lo, hi = UNIT_PRICE_RANGES.get(category, (20.0, 200.0))
+    return round(random.uniform(lo, hi), 2)
+
+def pick_region(country: str) -> str:
+    return COUNTRY_REGION.get(country, "Other")
+
+def pick_sales_rep(region: str) -> str:
+    reps = REGION_SALESREPS.get(region, ["Alex Taylor"])
+    return random.choice(reps)
+
+def generate_rows(month: int, year: int, n: int):
+    rows = []
+    for i in range(1, n + 1):
+        sale_id = f"{year}{month:02d}-{i:05d}"
+        d = random_date_in_month(year, month)
+        customer_id = f"CUST-{random.randint(1000, 9999)}"
+        product, category = random.choice(PRODUCTS)
+        qty = random.randint(1, 5)
+        unit_price = random_unit_price(category)
+        discount = round(random.choice([0.0, 0.05, 0.10, 0.15]) if random.random() < 0.6 else 0.0, 2)
+        gross = qty * unit_price
+        total = round(gross * (1 - discount), 2)  # pre-tax total
+
+        pay_method = random.choice(PAYMENT_METHODS)
+        city, country = random.choice(CITY_COUNTRY)
+        region = pick_region(country)
+        sales_rep = pick_sales_rep(region)
+
+        gst_amount = round(total * GST_RATE, 2)
+        total_with_gst = round(total + gst_amount, 2)
+
+        rows.append({
+            "SaleID": sale_id,
+            "Date": d.isoformat(),
+            "CustomerID": customer_id,
+            "Product": product,
+            "Category": category,
+            "Quantity": qty,
+            "UnitPrice": f"{unit_price:.2f}",
+            "Discount": f"{discount:.2f}",
+            "TotalAmount": f"{total:.2f}",          # before GST
+            "GST(18%)": f"{gst_amount:.2f}",
+            "TotalWithGST": f"{total_with_gst:.2f}",
+            "PaymentMethod": pay_method,
+            "City": city,
+            "Country": country,
+            "Region": region,
+            "SalesRep": sales_rep,
+        })
+    return rows
+
+def write_csv(filename: str, rows):
+    fieldnames = [
+        "SaleID", "Date", "CustomerID", "Product", "Category",
+        "Quantity", "UnitPrice", "Discount",
+        "TotalAmount", "GST(18%)", "TotalWithGST",
+        "PaymentMethod", "City", "Country",
+        "Region", "SalesRep"
+    ]
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+def main():
+    year = 2025
+    files = [
+        ("sales_jan.csv", 1),
+        ("sales_feb.csv", 2),
+        ("sales_mar.csv", 3),
+    ]
+    for fname, month in files:
+        data = generate_rows(month, year, 500)
+        write_csv(fname, data)
+    print("Generated: sales_jan.csv, sales_feb.csv, sales_mar.csv with Region, SalesRep, GST")
+
+if __name__ == "__main__":
+    main()

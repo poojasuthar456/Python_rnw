@@ -1,0 +1,201 @@
+record_id,age_group,age,weight,gender,region,smoking_status,exercise_frequency,bmi,blood_pressure,diabetes,hypertension,cholesterol_level,glucose_level,visit_date
+REC_0001,46-60,56,101.6,Female,North,Non-Smoker,Rarely,24.3,131.0,False,False,148.0,99.0,2023-09-02
+REC_0002,60+,69,57.7,Male,North,Non-Smoker,Weekly,31.8,135.0,False,True,182.0,89.0,2023-01-30
+REC_0003,46-60,46,60.6,Female,South,Non-Smoker,Rarely,27.5,108.0,False,False,236.0,75.0,2023-05-02
+REC_0004,26-35,32,75.1,Female,West,Non-Smoker,Weekly,25.5,163.0,False,True,199.0,111.0,2023-05-05
+REC_0005,46-60,60,80.5,Female,South,Non-Smoker,Never,25.1,107.0,False,False,209.0,106.0,2023-02-06
+REC_0006,18-25,25,97.4,Male,South,Non-Smoker,Rarely,30.8,127.0,False,True,202.0,86.0,2023-06-19
+REC_0007,60+,78,89.5,Female,West,Former Smoker,Rarely,26.9,123.0,False,True,160.0,96.0,2023-05-04
+REC_0008,36-45,38,79.9,Female,West,Non-Smoker,Rarely,27.7,107.0,False,False,168.0,111.0,2023-12-23
+REC_0009,46-60,56,73.5,Female,West,Former Smoker,Daily,28.2,119.0,False,True,202.0,88.0,2023-02-04
+REC_0010,60+,75,80.8,Female,North,Non-Smoker,Daily,26.5,125.0,False,True,219.0,90.0,2023-03-28
+REC_0011,36-45,36,62.7,Male,East,Non-Smoker,Rarely,28.1,115.0,False,False,228.0,99.0,2023-05-14
+REC_0012,36-45,40,66.2,Female,North,Non-Smoker,Weekly,25.5,139.0,False,True,160.0,88.0,2023-07-15
+REC_0013,26-35,28,52.2,Male,East,Smoker,Rarely,25.8,123.0,False,False,205.0,108.0,2023-10-01
+REC_0014,26-35,28,67.3,Male,North,Non-Smoker,Daily,21.5,105.0,False,False,232.0,92.0,2023-07-20
+REC_0015,36-45,41,81.6,Male,East,Non-Smoker,Weekly,27.2,104.0,False,False,155.0,83.0,2023-10-12
+REC_0016,60+,70,67.5,Male,North,Non-Smoker,Weekly,19.1,134.0,False,True,242.0,104.0,2023-03-18
+REC_0017,46-60,53,60.7,Male,West,Former Smoker,Weekly,27.1,103.0,True,False,247.0,98.0,2023-02-28
+REC_0018,46-60,57,65.7,Male,South,Non-Smoker,Weekly,24.9,130.0,True,False,282.0,145.0,2023-05-06
+REC_0019,36-45,41,78.7,Female,North,Non-Smoker,Weekly,27.5,132.0,True,False,198.0,139.0,2023-04-19
+REC_0020,18-25,20,66.9,Male,East,Non-Smoker,Weekly,21.8,110.0,False,False,198.0,103.0,2023-08-12
+REC_0021,36-45,39,80.2,Male,West,Non-Smoker,Weekly,17.5,138.0,False,False,219.0,101.0,2023-10-05
+REC_0022,60+,70,54.3,Male,North,Non-Smoker,Weekly,24.6,99.0,False,False,218.0,101.0,2023-03-09
+REC_0023,18-25,19,59.6,Female,North,Non-Smoker,Rarely,21.8,129.0,False,True,229.0,88.0,2023-03-10
+REC_0024,36-45,41,63.9,Female,West,Non-Smoker,Daily,18.9,124.0,False,False,217.0,99.0,2023-06-14
+REC_0025,60+,61,54.3,Male,North,Smoker,Weekly,29.1,123.0,False,False,186.0,81.0,2023-11-01
+REC_0026,46-60,47,105.3,Female,South,Smoker,Weekly,32.4,107.0,True,False,233.0,123.0,2023-06-11
+REC_0027,46-60,55,56.8,Male,North,Non-Smoker,Rarely,22.8,111.0,False,False,153.0,108.0,2023-12-31
+REC_0028,18-25,19,81.0,Male,South,Non-Smoker,Weekly,25.7,149.0,True,True,190.0,109.0,2023-12-08
+REC_0029,60+,77,62.0,Female,South,Smoker,Rarely,24.8,143.0,False,True,245.0,86.0,2023-11-05
+REC_0030,36-45,38,63.8,Male,West,Non-Smoker,Never,23.4,136.0,False,True,146.0,77.0,2023-12-09
+REC_0031,46-60,50,73.6,Female,North,Non-Smoker,Weekly,28.7,139.0,True,True,166.0,137.0,2023-02-11
+REC_0032,26-35,29,52.5,Female,West,Non-Smoker,Daily,30.0,138.0,False,True,214.0,87.0,2023-12-20
+REC_0033,60+,75,62.0,Male,North,Non-Smoker,Weekly,22.5,120.0,True,True,204.0,112.0,2023-04-19
+REC_0034,36-45,39,68.2,Male,North,Non-Smoker,Daily,26.2,126.0,False,True,159.0,100.0,2023-02-20
+REC_0035,60+,78,59.8,Female,East,Non-Smoker,Weekly,31.1,103.0,False,False,175.0,99.0,2023-09-07
+REC_0036,60+,61,60.1,Male,North,Non-Smoker,Never,28.8,124.0,True,False,149.0,126.0,2023-12-07
+REC_0037,36-45,42,83.0,Male,West,Smoker,Daily,29.4,143.0,False,True,224.0,89.0,2023-01-21
+REC_0038,60+,66,82.1,Male,South,Non-Smoker,Daily,31.5,115.0,True,False,181.0,98.0,2023-10-27
+REC_0039,36-45,44,64.7,Female,North,Non-Smoker,Daily,31.4,140.0,True,False,253.0,95.0,2023-05-19
+REC_0040,60+,76,69.0,Female,East,Former Smoker,Rarely,30.1,126.0,True,False,193.0,106.0,2023-12-25
+REC_0041,60+,80,84.8,Male,West,Non-Smoker,Weekly,26.6,104.0,False,False,182.0,81.0,2023-11-20
+REC_0042,46-60,59,52.9,Female,North,Former Smoker,Daily,24.5,108.0,False,False,179.0,90.0,2023-04-02
+REC_0043,36-45,45,74.1,Female,West,Non-Smoker,Never,26.4,139.0,False,True,181.0,115.0,2023-10-07
+REC_0044,60+,77,93.7,Female,East,Smoker,Rarely,23.9,133.0,False,False,194.0,89.0,2023-05-05
+REC_0045,26-35,33,93.6,Female,East,Non-Smoker,Daily,18.2,127.0,False,False,278.0,89.0,2023-04-21
+REC_0046,26-35,32,46.7,Female,West,Non-Smoker,Weekly,24.9,121.0,False,False,178.0,95.0,2023-12-20
+REC_0047,60+,79,60.8,Male,North,Non-Smoker,Rarely,27.4,128.0,False,False,179.0,89.0,2023-05-19
+REC_0048,60+,79,72.0,Male,South,Smoker,Weekly,23.7,138.0,False,True,192.0,94.0,2023-09-30
+REC_0049,60+,64,54.1,Male,East,Non-Smoker,Daily,25.2,147.0,False,True,228.0,103.0,2023-04-09
+REC_0050,60+,79,62.0,Female,North,Non-Smoker,Daily,25.4,148.0,False,True,140.0,108.0,2023-09-09
+REC_0051,60+,68,68.4,Female,North,Non-Smoker,Daily,31.4,131.0,False,False,206.0,110.0,2023-12-04
+REC_0052,60+,61,86.8,Male,South,Former Smoker,Rarely,24.6,122.0,True,True,161.0,146.0,2023-04-14
+REC_0053,60+,72,69.5,Female,East,Smoker,Never,31.4,127.0,True,False,209.0,124.0,2023-08-02
+REC_0054,60+,69,72.6,Male,East,Non-Smoker,Daily,15.2,133.0,False,False,173.0,129.0,2023-09-06
+REC_0055,60+,74,76.1,Male,North,Non-Smoker,Daily,31.4,133.0,False,True,109.0,83.0,2023-06-01
+REC_0056,18-25,20,76.5,Male,North,Smoker,Daily,31.2,145.0,False,True,203.0,126.0,2023-09-07
+REC_0057,46-60,54,70.3,Female,South,Non-Smoker,Daily,29.6,157.0,False,True,203.0,89.0,2023-10-02
+REC_0058,60+,68,55.6,Female,South,Non-Smoker,Rarely,18.0,122.0,False,False,170.0,91.0,2023-06-14
+REC_0059,18-25,24,79.5,Male,East,Non-Smoker,Weekly,30.1,157.0,False,True,168.0,93.0,2023-12-07
+REC_0060,36-45,38,75.2,Male,West,Smoker,Weekly,25.8,143.0,False,False,144.0,92.0,2023-01-08
+REC_0061,26-35,26,56.8,Male,East,Non-Smoker,Daily,15.9,123.0,False,False,217.0,96.0,2023-10-11
+REC_0062,46-60,56,61.8,Male,North,Smoker,Weekly,31.2,147.0,True,True,221.0,106.0,2023-01-05
+REC_0063,26-35,35,80.7,Female,East,Former Smoker,Weekly,31.8,150.0,True,True,159.0,127.0,2023-05-25
+REC_0064,18-25,21,77.3,Female,West,Smoker,Rarely,18.4,118.0,False,False,171.0,87.0,2023-04-11
+REC_0065,36-45,42,61.4,Male,South,Non-Smoker,Daily,26.7,151.0,False,True,188.0,105.0,2023-06-13
+REC_0066,60+,77,66.8,Male,West,Former Smoker,Rarely,31.6,141.0,True,True,269.0,138.0,2023-05-27
+REC_0067,26-35,31,68.3,Female,West,Non-Smoker,Weekly,30.9,161.0,True,True,209.0,110.0,2023-03-05
+REC_0068,60+,67,77.4,Female,West,Former Smoker,Daily,29.3,119.0,False,False,157.0,107.0,2023-04-01
+REC_0069,60+,75,85.0,Male,South,Smoker,Weekly,15.4,120.0,False,False,201.0,103.0,2023-04-27
+REC_0070,26-35,26,70.8,Male,West,Non-Smoker,Rarely,28.9,95.0,False,False,142.0,129.0,2023-12-20
+REC_0071,36-45,43,84.0,Male,West,Non-Smoker,Never,25.1,134.0,False,False,215.0,87.0,2023-09-24
+REC_0072,60+,70,80.5,Female,West,Non-Smoker,Weekly,30.0,131.0,True,True,249.0,127.0,2023-11-06
+REC_0073,18-25,19,72.5,Female,North,Smoker,Weekly,27.0,117.0,False,False,249.0,71.0,2023-06-22
+REC_0074,36-45,37,52.7,Female,West,Smoker,Never,25.9,124.0,False,False,216.0,88.0,2023-02-16
+REC_0075,36-45,45,57.7,Male,South,Smoker,Weekly,28.6,105.0,False,False,170.0,100.0,2023-05-20
+REC_0076,60+,64,78.9,Male,West,Non-Smoker,Daily,25.3,143.0,True,True,144.0,136.0,2023-09-03
+REC_0077,60+,77,49.5,Female,West,Non-Smoker,Never,25.9,118.0,True,False,141.0,97.0,2023-05-29
+REC_0078,18-25,24,71.4,Female,South,Non-Smoker,Daily,23.8,171.0,False,True,92.0,107.0,2023-09-03
+REC_0079,60+,61,82.0,Male,West,Smoker,Weekly,19.6,122.0,False,False,214.0,94.0,2023-01-05
+REC_0080,60+,78,71.8,Female,South,Former Smoker,Daily,28.3,114.0,False,False,186.0,72.0,2023-07-03
+REC_0081,18-25,25,62.8,Female,West,Non-Smoker,Daily,22.8,119.0,False,False,222.0,98.0,2023-01-20
+REC_0082,60+,64,59.8,Male,South,Non-Smoker,Weekly,25.2,104.0,True,False,240.0,141.0,2023-02-15
+REC_0083,46-60,52,79.8,Female,West,Smoker,Rarely,27.1,132.0,True,True,193.0,98.0,2023-01-12
+REC_0084,26-35,31,75.7,Male,West,Non-Smoker,Daily,17.7,119.0,False,False,195.0,93.0,2023-03-11
+REC_0085,26-35,34,66.6,Male,North,Smoker,Daily,18.6,142.0,False,False,174.0,80.0,2023-01-17
+REC_0086,46-60,53,82.8,Male,North,Non-Smoker,Daily,24.8,121.0,False,False,178.0,88.0,2023-05-27
+REC_0087,60+,67,80.2,Male,West,Non-Smoker,Weekly,27.8,146.0,False,True,215.0,116.0,2023-06-03
+REC_0088,46-60,57,91.5,Male,West,Smoker,Never,29.0,136.0,False,True,184.0,91.0,2023-10-31
+REC_0089,18-25,21,76.8,Male,East,Non-Smoker,Weekly,19.6,125.0,False,True,179.0,116.0,2023-04-18
+REC_0090,18-25,19,68.0,Male,South,Smoker,Weekly,28.5,149.0,True,True,189.0,132.0,2023-08-24
+REC_0091,60+,79,68.3,Female,East,Non-Smoker,Rarely,25.0,139.0,False,True,221.0,90.0,2023-11-04
+REC_0092,18-25,23,46.8,Male,North,Non-Smoker,Weekly,22.5,169.0,False,True,166.0,87.0,2023-12-18
+REC_0093,60+,71,71.8,Male,North,Non-Smoker,Daily,23.4,119.0,False,True,188.0,82.0,2023-03-11
+REC_0094,46-60,59,69.8,Female,North,Non-Smoker,Daily,29.2,126.0,False,True,199.0,81.0,2023-07-02
+REC_0095,18-25,21,54.0,Female,North,Non-Smoker,Weekly,27.1,149.0,False,True,231.0,100.0,2023-09-07
+REC_0096,60+,71,69.7,Female,West,Non-Smoker,Weekly,26.2,102.0,False,False,182.0,95.0,2023-08-16
+REC_0097,46-60,46,86.1,Male,North,Non-Smoker,Weekly,27.0,145.0,False,False,165.0,86.0,2023-04-12
+REC_0098,60+,80,61.2,Female,West,Non-Smoker,Rarely,29.7,132.0,False,True,173.0,72.0,2023-03-16
+REC_0099,26-35,35,58.5,Male,West,Non-Smoker,Weekly,25.6,112.0,False,False,227.0,97.0,2023-08-04
+REC_0100,36-45,43,83.3,Male,North,Non-Smoker,Weekly,26.2,105.0,False,False,261.0,88.0,2023-07-22
+REC_0101,60+,61,77.6,Male,North,Non-Smoker,Weekly,30.6,115.0,True,False,144.0,112.0,2023-07-11
+REC_0102,46-60,51,106.7,Male,South,Non-Smoker,Weekly,24.7,91.0,False,False,152.0,100.0,2023-09-06
+REC_0103,26-35,27,54.2,Female,East,Former Smoker,Rarely,28.5,118.0,True,False,184.0,77.0,2023-08-30
+REC_0104,60+,79,78.6,Female,North,Non-Smoker,Weekly,24.0,134.0,False,True,194.0,72.0,2023-06-28
+REC_0105,46-60,53,73.8,Male,South,Smoker,Daily,24.3,118.0,False,True,218.0,129.0,2023-08-07
+REC_0106,26-35,31,70.7,Male,South,Non-Smoker,Rarely,25.6,146.0,False,True,159.0,87.0,2023-03-23
+REC_0107,46-60,48,80.9,Male,East,Non-Smoker,Weekly,28.1,150.0,True,True,153.0,77.0,2023-04-02
+REC_0108,60+,65,69.6,Female,West,Former Smoker,Weekly,30.8,144.0,True,True,195.0,93.0,2023-06-24
+REC_0109,26-35,32,46.8,Male,North,Smoker,Weekly,26.4,128.0,False,True,181.0,132.0,2023-08-27
+REC_0110,18-25,25,59.8,Male,East,Smoker,Weekly,20.0,90.0,False,False,222.0,84.0,2023-09-17
+REC_0111,26-35,31,86.4,Female,North,Non-Smoker,Rarely,28.5,114.0,True,False,207.0,132.0,2023-12-31
+REC_0112,36-45,40,84.1,Female,South,Non-Smoker,Daily,35.8,123.0,True,False,209.0,117.0,2023-06-12
+REC_0113,60+,77,65.5,Male,South,Former Smoker,Weekly,26.4,112.0,True,False,186.0,108.0,2023-02-17
+REC_0114,60+,74,76.0,Female,West,Smoker,Daily,19.2,123.0,False,False,272.0,107.0,2023-11-25
+REC_0115,60+,79,103.4,Female,South,Non-Smoker,Rarely,26.7,149.0,False,True,161.0,59.0,2023-11-24
+REC_0116,46-60,57,69.6,Male,South,Smoker,Daily,26.0,100.0,False,False,211.0,73.0,2023-04-26
+REC_0117,36-45,38,69.9,Female,East,Non-Smoker,Rarely,25.7,152.0,False,True,146.0,88.0,2023-12-03
+REC_0118,26-35,33,72.3,Male,North,Smoker,Weekly,29.8,138.0,False,True,152.0,75.0,2023-12-03
+REC_0119,60+,62,77.3,Female,North,Smoker,Rarely,31.5,129.0,True,False,169.0,106.0,2023-08-13
+REC_0120,26-35,35,65.8,Male,East,Non-Smoker,Never,28.7,114.0,False,False,247.0,108.0,2023-12-18
+REC_0121,60+,64,77.3,Male,West,Former Smoker,Rarely,25.5,112.0,False,True,199.0,97.0,2023-11-24
+REC_0122,60+,70,46.7,Male,North,Former Smoker,Rarely,30.5,101.0,True,True,169.0,135.0,2023-05-27
+REC_0123,36-45,41,74.0,Female,South,Non-Smoker,Weekly,20.0,151.0,False,False,203.0,98.0,2023-03-04
+REC_0124,36-45,43,70.6,Male,North,Former Smoker,Weekly,23.1,148.0,False,True,191.0,110.0,2023-10-21
+REC_0125,36-45,42,67.4,Female,South,Smoker,Daily,23.6,104.0,False,False,173.0,94.0,2023-11-19
+REC_0126,60+,77,64.3,Male,West,Former Smoker,Daily,25.9,117.0,False,False,141.0,86.0,2023-11-21
+REC_0127,60+,77,62.7,Male,East,Non-Smoker,Weekly,28.0,131.0,False,False,240.0,117.0,2023-01-13
+REC_0128,60+,77,60.2,Female,North,Non-Smoker,Weekly,25.2,121.0,False,True,197.0,84.0,2023-07-08
+REC_0129,60+,62,42.2,Male,East,Non-Smoker,Weekly,22.4,96.0,False,False,266.0,100.0,2023-10-14
+REC_0130,46-60,58,66.8,Male,North,Non-Smoker,Weekly,29.9,115.0,False,False,223.0,107.0,2023-07-27
+REC_0131,46-60,46,83.2,Female,South,Non-Smoker,Rarely,25.1,154.0,False,True,209.0,108.0,2023-04-24
+REC_0132,26-35,32,66.0,Male,East,Non-Smoker,Weekly,26.4,116.0,False,False,175.0,78.0,2023-01-22
+REC_0133,60+,62,77.6,Male,North,Non-Smoker,Rarely,28.2,123.0,False,True,152.0,111.0,2023-12-15
+REC_0134,18-25,18,57.0,Male,South,Smoker,Rarely,26.2,108.0,False,False,182.0,80.0,2023-08-02
+REC_0135,36-45,42,54.3,Male,East,Former Smoker,Never,26.2,134.0,False,True,151.0,107.0,2023-06-20
+REC_0136,18-25,24,61.0,Female,East,Non-Smoker,Weekly,30.1,127.0,False,True,213.0,103.0,2023-11-19
+REC_0137,26-35,26,57.7,Female,North,Smoker,Rarely,26.6,114.0,False,False,247.0,107.0,2023-02-23
+REC_0138,36-45,41,55.8,Male,North,Non-Smoker,Never,29.5,105.0,False,False,181.0,77.0,2023-10-25
+REC_0139,18-25,18,75.4,Female,North,Non-Smoker,Never,28.2,146.0,False,True,223.0,104.0,2023-11-16
+REC_0140,60+,61,91.3,Male,South,Non-Smoker,Daily,34.1,101.0,True,False,166.0,131.0,2023-05-06
+REC_0141,18-25,25,62.0,Female,North,Non-Smoker,Weekly,27.6,133.0,True,True,179.0,118.0,2023-10-04
+REC_0142,36-45,41,49.7,Male,East,Smoker,Weekly,28.6,93.0,True,True,161.0,103.0,2023-07-23
+REC_0143,60+,80,77.9,Male,East,Non-Smoker,Daily,30.4,136.0,False,True,115.0,109.0,2023-07-13
+REC_0144,26-35,28,52.8,Male,North,Former Smoker,Weekly,26.3,140.0,False,False,189.0,97.0,2023-06-18
+REC_0145,60+,68,55.8,Male,North,Non-Smoker,Rarely,23.4,141.0,False,True,194.0,70.0,2023-06-01
+REC_0146,26-35,34,75.9,Male,West,Non-Smoker,Rarely,24.1,123.0,False,False,227.0,82.0,2023-02-04
+REC_0147,18-25,25,68.0,Male,East,Non-Smoker,Daily,24.1,149.0,True,True,218.0,107.0,2023-07-03
+REC_0148,46-60,52,61.8,Female,South,Non-Smoker,Rarely,22.2,160.0,False,True,218.0,118.0,2023-10-13
+REC_0149,46-60,52,70.8,Male,West,Non-Smoker,Weekly,27.3,120.0,False,False,156.0,115.0,2023-02-26
+REC_0150,46-60,50,65.1,Female,North,Non-Smoker,Rarely,23.5,118.0,True,True,206.0,135.0,2023-08-10
+REC_0151,60+,76,92.7,Male,North,Smoker,Never,26.8,127.0,False,False,245.0,98.0,2023-10-30
+REC_0152,18-25,22,61.9,Female,East,Non-Smoker,Weekly,25.4,118.0,False,False,203.0,109.0,2023-06-12
+REC_0153,46-60,59,59.0,Female,North,Smoker,Weekly,25.8,116.0,False,False,254.0,78.0,2023-01-19
+REC_0154,46-60,56,64.5,Female,South,Smoker,Rarely,28.2,117.0,True,False,261.0,115.0,2023-09-21
+REC_0155,60+,75,65.0,Male,East,Smoker,Weekly,23.8,151.0,False,True,181.0,102.0,2023-10-09
+REC_0156,46-60,58,77.1,Male,North,Smoker,Daily,28.6,137.0,True,True,166.0,99.0,2023-04-23
+REC_0157,36-45,45,46.1,Female,East,Non-Smoker,Rarely,32.3,118.0,False,False,163.0,98.0,2023-11-23
+REC_0158,18-25,24,75.1,Male,North,Non-Smoker,Weekly,27.4,88.0,False,False,137.0,120.0,2023-01-30
+REC_0159,26-35,26,63.5,Female,North,Non-Smoker,Rarely,22.9,102.0,False,False,172.0,103.0,2023-05-15
+REC_0160,18-25,25,79.3,Male,North,Smoker,Weekly,23.5,133.0,False,True,232.0,109.0,2023-03-08
+REC_0161,26-35,29,69.4,Female,South,Former Smoker,Rarely,25.0,93.0,False,False,113.0,58.0,2023-03-06
+REC_0162,46-60,51,76.2,Female,South,Non-Smoker,Daily,23.6,129.0,False,False,154.0,118.0,2023-10-19
+REC_0163,46-60,50,65.3,Male,East,Non-Smoker,Never,22.0,109.0,False,False,186.0,92.0,2023-01-25
+REC_0164,60+,65,75.3,Female,North,Former Smoker,Rarely,26.6,126.0,False,True,159.0,83.0,2023-02-06
+REC_0165,60+,72,90.0,Male,North,Former Smoker,Daily,25.1,126.0,False,False,172.0,92.0,2023-01-01
+REC_0166,36-45,40,61.1,Female,South,Smoker,Weekly,26.8,127.0,False,False,172.0,73.0,2023-02-06
+REC_0167,60+,79,68.7,Female,North,Non-Smoker,Never,30.7,119.0,True,True,181.0,131.0,2023-05-21
+REC_0168,36-45,41,64.2,Male,South,Former Smoker,Weekly,25.1,119.0,False,False,164.0,90.0,2023-08-20
+REC_0169,46-60,54,89.1,Male,North,Non-Smoker,Daily,21.3,114.0,False,False,162.0,84.0,2023-05-16
+REC_0170,46-60,52,64.8,Male,East,Smoker,Weekly,24.4,132.0,False,False,223.0,92.0,2023-07-07
+REC_0171,60+,61,61.2,Female,North,Non-Smoker,Weekly,29.1,137.0,False,True,227.0,112.0,2023-05-08
+REC_0172,46-60,57,63.1,Male,North,Non-Smoker,Rarely,28.7,107.0,False,False,142.0,97.0,2023-07-20
+REC_0173,36-45,39,68.4,Female,West,Non-Smoker,Weekly,28.1,124.0,False,False,93.0,74.0,2023-05-07
+REC_0174,36-45,44,60.5,Female,South,Non-Smoker,Weekly,23.5,128.0,False,False,227.0,102.0,2023-09-14
+REC_0175,46-60,52,65.6,Male,North,Non-Smoker,Daily,29.0,128.0,True,True,147.0,101.0,2023-06-13
+REC_0176,18-25,18,71.9,Male,North,Smoker,Weekly,29.9,128.0,False,True,197.0,63.0,2023-02-04
+REC_0177,46-60,52,68.6,Female,West,Smoker,Weekly,23.2,119.0,True,False,135.0,137.0,2023-07-13
+REC_0178,46-60,54,80.0,Female,West,Non-Smoker,Daily,25.8,129.0,True,False,235.0,122.0,2023-07-10
+REC_0179,60+,64,66.2,Male,South,Former Smoker,Never,34.1,134.0,True,True,279.0,114.0,2023-04-14
+REC_0180,26-35,31,67.5,Male,West,Non-Smoker,Weekly,23.0,127.0,False,False,196.0,90.0,2023-01-23
+REC_0181,18-25,20,73.3,Male,East,Non-Smoker,Weekly,19.2,133.0,False,False,187.0,116.0,2023-09-22
+REC_0182,18-25,18,96.9,Male,West,Non-Smoker,Rarely,31.5,140.0,True,True,179.0,161.0,2023-10-17
+REC_0183,18-25,22,60.5,Male,East,Non-Smoker,Weekly,30.5,97.0,True,False,217.0,122.0,2023-09-17
+REC_0184,36-45,43,93.1,Female,South,Non-Smoker,Rarely,24.2,139.0,False,False,210.0,80.0,2023-12-24
+REC_0185,60+,72,55.8,Female,South,Former Smoker,Weekly,25.5,130.0,False,False,225.0,93.0,2023-03-16
+REC_0186,60+,80,72.7,Female,South,Non-Smoker,Daily,21.1,108.0,False,False,168.0,101.0,2023-12-21
+REC_0187,26-35,31,65.9,Female,South,Non-Smoker,Weekly,26.4,137.0,False,True,202.0,60.0,2023-03-13
+REC_0188,46-60,56,60.2,Male,South,Non-Smoker,Weekly,30.7,119.0,False,True,171.0,100.0,2023-09-16
+REC_0189,36-45,44,78.4,Male,East,Non-Smoker,Rarely,23.8,121.0,False,False,153.0,102.0,2023-07-07
+REC_0190,26-35,26,77.2,Male,East,Non-Smoker,Daily,29.5,117.0,True,False,189.0,135.0,2023-06-22
+REC_0191,26-35,32,64.2,Female,South,Non-Smoker,Daily,27.9,130.0,False,False,158.0,113.0,2023-10-17
+REC_0192,26-35,32,44.9,Female,West,Non-Smoker,Daily,28.3,113.0,False,False,231.0,97.0,2023-02-14
+REC_0193,36-45,43,65.0,Male,North,Smoker,Daily,24.1,139.0,True,False,160.0,138.0,2023-03-02
+REC_0194,46-60,59,71.7,Male,South,Smoker,Rarely,24.6,123.0,False,True,203.0,126.0,2023-03-24
+REC_0195,60+,77,70.0,Female,West,Non-Smoker,Daily,18.6,120.0,False,False,169.0,95.0,2023-05-03
+REC_0196,26-35,30,79.1,Female,North,Non-Smoker,Weekly,23.7,136.0,False,True,200.0,101.0,2023-12-24
+REC_0197,60+,68,93.2,Male,South,Non-Smoker,Weekly,30.7,120.0,True,False,172.0,88.0,2023-01-16
+REC_0198,60+,80,75.0,Male,South,Non-Smoker,Weekly,22.3,139.0,True,True,146.0,93.0,2023-03-07
+REC_0199,46-60,49,76.8,Female,East,Non-Smoker,Rarely,22.9,140.0,False,True,207.0,82.0,2023-05-25
+REC_0200,46-60,56,71.8,Male,North,Smoker,Weekly,28.6,105.0,True,False,182.0,108.0,2023-06-11

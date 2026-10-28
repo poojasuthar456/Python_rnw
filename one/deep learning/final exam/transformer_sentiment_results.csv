@@ -1,0 +1,26 @@
+Sentence,True_Sentiment,Predicted_Label,Confidence_Score
+The food was amazing and the staff were very friendly.,POS,POSITIVE,0.9999
+I absolutely loved this movie.,POS,POSITIVE,0.9999
+The product quality is excellent.,POS,POSITIVE,0.9999
+This is the best experience I have ever had.,POS,POSITIVE,0.9998
+The delivery was fast and the packaging was perfect.,POS,POSITIVE,0.9999
+I am very happy with my purchase.,POS,POSITIVE,0.9999
+The service was wonderful and professional.,POS,POSITIVE,0.9999
+This phone works perfectly and has a great camera.,POS,POSITIVE,0.9999
+The trip was beautiful and unforgettable.,POS,POSITIVE,0.9999
+I highly recommend this place to everyone.,POS,POSITIVE,0.9999
+The food was cold and tasted terrible.,NEG,NEGATIVE,0.9996
+I hated this movie; it was boring.,NEG,NEGATIVE,0.9996
+The product broke after one day.,NEG,NEGATIVE,0.9988
+This was the worst experience ever.,NEG,NEGATIVE,0.9998
+My delivery was late and the package was damaged.,NEG,NEGATIVE,0.9997
+I am very disappointed with this purchase.,NEG,NEGATIVE,0.9998
+The staff were rude and unhelpful.,NEG,NEGATIVE,0.999
+The phone battery is terrible and drains quickly.,NEG,NEGATIVE,0.9995
+The room was dirty and uncomfortable.,NEG,NEGATIVE,0.9997
+I would not recommend this product.,NEG,NEGATIVE,0.9863
+"The food was okay, nothing special.",NEU,NEGATIVE,0.9834
+The movie was long but had some good scenes.,NEU,POSITIVE,0.9988
+The product arrived yesterday.,NEU,POSITIVE,0.9814
+The service was average.,NEU,NEGATIVE,0.9087
+The phone is expensive but has many features.,NEU,POSITIVE,0.9931
